@@ -1,16 +1,13 @@
 :root {
-  --skydark: #041F41;
-  --skylight: #0D3C7D;
-  --yellowlight: #FFF2AE;
-  --yellowgold: #EBCF87;
+  --nalunsgreen: #88A07E;
+  --nalunsclay: #CF9173;
+  --nalunsyellow: #D2B569;
+  --nalunsbraun: #B0A294;
 
-  --fontwhite: #d4d4d4;
-
-  --fonttitle: 60px;
-  --fontsubtitle: 30px;
-  --fontsubsubtitle: 25px;
-  --fonttext: 20px;
-  --fontsmall: 18px;
+  --font-big: 250px;
+  --font-title: 80px;
+  --font-text-big: 40px;
+  --font-text-small: 21px;
 }
 
 * {
@@ -20,51 +17,50 @@
 body {
   margin: 0;
   padding: 0;
-  background: var(--skydark);
-  background: linear-gradient(0deg, var(--skylight) 20%, var(--skydark) 100%);
 }
 body.fixed {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-
 /*----------------------------------
   Font
 -----------------------------------*/
-h1, h2, h3, h4, p, a, li, input, button, .error {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: var(--fonttext);
-  color: var(--fontwhite);
+h1, h2, h3, p, a, li,figcaption ,button, .accordion {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: var(--font-text-small);
+  color: white;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.25px;
-  line-height: 1.75rem;
   text-decoration: none;
   hyphens: auto;
   -webkit-hyphens: auto; 
   -ms-hyphens: auto; 
 }
 
-h1 {
-  color: var(--yellowgold);
-  font-size: var(--fonttitle);
-  font-weight: 300;
-  line-height: 1.1;
+h1,h2,p,figcaption {
+  margin: 0 30px;
 }
 
-h3 {
-  font-size: var(--fontsubtitle);
-  margin-top: 0px;
-  line-height: 1.3em;
+h1.intro {
+  font-size: var(--font-text-small);
 }
-h4 {
-  font-size: var(--fontsubsubtitle);
+h1.big {
+  font-size: 250px;
+  margin-top: 120px;
+  text-align: center;
 }
 
-strong {
-  display: block;
-  font-weight: 500;
+.font-title {font-size: var(--font-title);}
+.font-text-big {font-size: var(--font-text-big);}
+
+
+li {list-style: none;}
+li a {font-size: var(--font-text-big);}
+
+a {
+  cursor: pointer;
 }
 
 
@@ -72,610 +68,235 @@ strong {
   word-wrap: break-word;
 }
 
+/*----------------------------------
+  Basic
+-----------------------------------*/
+section {
+  margin: 0 auto;
+  max-width: 2000px;
+  padding: 0 50px;
+  position: relative;
+  z-index: 2;
+}
+
+article {
+  margin-bottom: 150px;
+}
+
+.two-thirds {
+ margin-left: 33%;
+}
+
+.green{ background-color: var(--nalunsgreen);}
+.clay{ background-color: var(--nalunsclay);}
 
 /*----------------------------------
-  Header
+  Navigation
 -----------------------------------*/
 
 nav {
   position: fixed;
   z-index: 10;
-  width: 100%;
-  top: 0;
+  top: 30px;
+  right: 30px;
   transition: top 0.5s ease-in-out;
-  background-color: #041f41bf;
 }
-
-.logocontainer{
-  z-index: 1;
-  margin: 30px 30px 20px;
-  position: relative;
-  display: inline-block;
-}
-
-.logo {
-  display: inline-block;
-  font-size: var(--fonttext);
-  color: var(--fontwhite);
-  font-weight: 400;
-  margin: 0;
-  padding-left: 10px;
-  vertical-align: super;
-  line-height: 1.5rem;
-}
-
-.innercircle {
-  position: absolute;
-  top: 21px;
-  left: 21px;
-  height: 8px;
-  width: 8px;
-  border-radius: 8px;
-  background: var(--yellowgold);
-  background: linear-gradient(90deg, var(--yellowlight) 20%, var(--yellowgold) 100%);
-}
-
-.outercircle {
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-}
-
 .navbar {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.nav-list {
-  margin: 30px;
-}
-
-.nav-list li {
+  width: 40px;
   display: inline-block;
-  margin-left: 7px;
-  border: 2px solid var(--fontwhite);
-  border-radius: 50px;
-  opacity: 0.4;
-  transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+.navbar img {
+  float: left;  
+  transition: padding-bottom 0.5s ease-in-out;
+}
+.nav {
+  position: fixed;
+  display: none;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  background-color: var(--nalunsgreen);
+}
+.navcont {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+.navcont ul {
+  padding: 0;
+  margin-left: 30px;
+  flex-basis: 25%;
 }
 
-.nav-list li a {
-  padding: 10px 20px;
-  display: inherit;
+.navcont li {
+  margin-right: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s;
 }
 
-
-.nav-list li:hover {
+.navcont li:hover {
   opacity: 1;
 }
 
-li.nav-resp {
-  display: none;
+.spread {
+ padding-bottom: 5px;
 }
 
-.burger-icon {
-  display: none;
-  cursor: pointer;
-  margin: 40px;
-}
-.bar {
-  width: 25px;
-  height: 2px;
-  background-color: white;
-  margin: 3px 0;
-  transition: width 0.3s ease;
-}
-
-.burger-icon.active .bar:nth-child(odd) {
-  width: 0px; ;
-}
-
-
-.angebotnav {
-  position: fixed;
-  z-index: 9;
-  top: 0;
-  height: 100vh;
-  width: 90%;
-  left: 5%;
-  display: none;
-}
-
-.angebotsun {
-  height: 100vh;
+.images {
   display: flex;
+  position: relative;
+  flex-basis: 75%;
   justify-content: center;
   align-items: center;
 }
 
-#angebotBtn {
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-#angebotBtn.activBtn {
-  opacity: 1;
-  border: 2px solid var(--yellowgold);
-  color: var(--yellowgold);
-}
-
-.angebot a { 
+.image {
+  width: 50%;
+  height: 75vh;
   position: absolute;
-  color: var(--yellowgold);
-}
-.angebot a::before {
-  content: "";
-  position: absolute;
-  top: -5px;
-  left: -15px;
-  width: 5px;
-  height: 5px;
-  background: var(--yellowgold);
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.angebot a:hover::before {
-  width: 10px;
-  height: 10px;
-}
-
-.angebot a:nth-child(1) { top: 15%; left: 40%; }
-.angebot a:nth-child(2) { top: 45%; left: 5%; }
-.angebot a:nth-child(3) { top: 45%; right: 5%; }
-.angebot a:nth-child(4) { top: 80%; left: 15%; }
-.angebot a:nth-child(5) { top: 80%; right: 15%; }
-
-/*----------------------------------
-  Basic
------------------------------------*/
-.maincontent {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 0 30px;
-  position: relative;
-  z-index: 2;
-  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(15deg);
   transition: opacity 1s;
-}
-
-.maincontent.fade,
-footer.fade {
   opacity: 0;
 }
 
-.subpage {
-  margin-top: 40vh;
-}
+#naluns-image {background-image: url('img/naluns-image.jpg');}
+#pizokel-image {background-image: url('img/pizokel-image.jpg');}
 
 
 /*----------------------------------
-  Intro
+  Header
+-----------------------------------*/
+header {
+  margin-top: 30px;
+}
+
+/*----------------------------------
+  Start
 -----------------------------------*/
 
-.intro {
+figure {
+  margin: 100px 0;
+}
+figcaption {
+  margin-top: 15px;
+}
+
+figure img {
+width: 100%;
+}
+
+/*----------------------------------
+  Product Intro
+-----------------------------------*/
+
+.productintro {
   display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.procontainer {
+  display: flex;
   flex-direction: column;
+  flex-basis: 100%;
 }
-
-.intro h1 {
-  margin-left: 50%;
-  margin-top: 70px;
-  margin-bottom: 50px;
-  font-size: var(--fonttext);
-  font-weight: 400;
-  line-height: 1.75rem;
-}
-
-.sun {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.innercirclesun {
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  border-radius: 60px;
-  transform: scale(1);
-  background: var(--yellowgold);
-  background: linear-gradient(90deg, var(--yellowlight) 20%, var(--yellowgold) 100%);
-  animation: sun 10s linear infinite;
-}
-
-@keyframes sun {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(0.5); }
-}
-
-.outercirclesun {
-  width: 300px;
-}
-
-.line {
-  border-left: solid 2px var(--yellowgold);
-  padding-left: 15px;
-}
-
-.gold {
-  color: var(--yellowgold);
-}
-
-.center {
-  margin-top: 75px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-/*----------------------------------
-  Astro Circle
------------------------------------*/
-
-.astrocirclecontainer {
-  overflow: hidden;
+.proimg {
   position: relative;
-  margin: 50px auto;
-  max-width: 800px;
+  margin-bottom: 15px;
 }
-
-.astrocircle {
-position: absolute;
-top: 0;
-left: 0;
-}
-
-.signcircle {
+.proimg img {
   width: 100%;
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  align-items: center;
-  justify-content: center;
 }
-
-.circle {
-  width: 30%;
+.proimg h2 {
+  bottom: 30px;
   position: absolute;
 }
 
-.rotating-image {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
-  transform: rotate(20deg);
-}
-
-.acin {position: relative;}
-.acout {animation: acout 120s linear infinite;}
-.speedsun {animation: circleanimation 90s infinite linear;}
-
-.rotationmercury {transform: rotate(-30deg);}
-.mercury {transform: rotate(30deg);}
-.speedmercury {animation: circleanimation 90s infinite linear;}
-
-.rotationvenus {transform: rotate(20deg);}
-.venus {transform: rotate(-20deg);}
-.speedvenus {animation: circleanimation 90s infinite linear;}
-
-.rotationrahu {transform: rotate(160deg);}
-.rahu {transform: rotate(-160deg);}
-.speedrahu {animation: circleanimation 120s infinite linear;}
-
-.rotationsaturn {transform: rotate(-110deg);}
-.saturn {transform: rotate(110deg);}
-.speedsaturn {animation: circleanimation 120s infinite linear;}
-
-.rotationmars {transform: rotate(-80deg);}
-.mars {transform: rotate(80deg);}
-.speedmars {animation: circleanimation 120s infinite linear;}
-
-.rotationketu {transform: rotate(-70deg);}
-.ketu {transform: rotate(70deg);}
-.speedketu {animation: circleanimation 120s infinite linear;}
-
-.rotationchiron {transform: rotate(-55deg);}
-.chiron {transform: rotate(55deg);}
-.speedchiron {animation: circleanimation 120s infinite linear;}
-
-.rotationjupiter {transform: rotate(-35deg);}
-.jupiter {transform: rotate(35deg);}
-.speedjupiter {animation: circleanimation 120s infinite linear;}
-
-.rotationneptun {transform: rotate(120deg);}
-.neptun {transform: rotate(-120deg);}
-.speedneptun {animation: circleanimation 360s infinite linear;}
-
-.rotationpluto {transform: rotate(-140deg);}
-.pluto {transform: rotate(140deg);}
-.speedpluto {animation: circleanimation 480s infinite linear;}
-
-.rotationuranus {transform: rotate(-130deg);}
-.uranus {transform: rotate(130deg);}
-.speeduranus {animation: circleanimation 240s infinite linear;}
-
-.rotationmoon {transform: rotate(180deg);}
-.moon {transform: rotate(-180deg);}
-.speedmoon {animation: circleanimation 30s infinite linear;}
-
-
-@keyframes circleanimation {
-  0% {transform: rotate(0deg) translateX(-100%) rotate(0deg);}
-  100% {transform: rotate(360deg) translateX(-100%) rotate(-360deg);}
-}
-
-@keyframes acout {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(-360deg); }
-} 
 
 /*----------------------------------
-  Subpage Horoskope
+  Accordion
 -----------------------------------*/
-.description {
-  display: flex;
-  margin-top: 75px;
+.accordion {
+  margin-top: 50px;
+}
+.accordion-item {
+  margin-bottom: 10px;
 }
 
-.dprice {
-  width: 35%;
-}
-
-.dwhat {
-  width: 65%;
-}
-
-.booking {
-  margin-top: 75px;
-  padding: 15px 30px 40px;
-  border: 2px solid var(--yellowgold);
-  border-radius: 15px;
-}
-
-.astromap {
-  margin: 100px 40px 0;
-}
-
-/*----------------------------------
-    Preise
------------------------------------*/
-.preiscontainer {
-  display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
-  margin: 80px 0 160px;
-}
-.preislayer {
-  padding: 25px 30px 30px;
-  border: 2px solid var(--yellowgold);
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex-basis: calc(50% - 20px);
-  justify-content: space-between;
-}
-.preislayer h3,
-.preislayer p  {
-  margin: 0;
-}
-.preislayer p span {
-  padding-top: 50px;
-}
-.payBtncont {
-  display: flex;
-  gap: 15px;
-  margin-top: 20px;
-}
-.payBtn {
+.accordion-header {
+  border-bottom: white 3px solid;
+  font-size: var(--font-title);
+  margin-left: 33%;
+  padding: 10px 30px;
   cursor: pointer;
-  background-color: var(--yellowgold);
-  border-radius: 50px;
-  padding: 15px 25px;
-  color: var(--skydark);
-  width: 100%;
-  text-align: center;
-  border: 2px solid var(--yellowgold);
-  line-height: 1;
-  transition: background-color 0.3s ease-in-out;
+  user-select: none;
+  transition: padding 0.3s;
 }
 
-.payBtn.bBtn {
-  border: 2px solid var(--fontwhite);
-  background: transparent;
-  color: var(--fontwhite);
-}
-.payBtn:hover {
-  background-color: var(--yellowlight);
-}
-.payBtn.bBtn:hover {
-  background-color: #ffffff50;
+.accordion-header:hover {
+  padding-bottom: 20px;
 }
 
-/*----------------------------------
-    Contactform
------------------------------------*/
-
-form {
-  margin: 30px 0 0 ;
-}
-
-fieldset {
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
-input, button {
-  width: 100%;
-  box-shadow: none;
-  border: none;
-  color: var(--yellowgold);
-  border-bottom: 2px solid var(--yellowgold);
-  background-color: transparent;
-  border-radius: 0;
-  margin-bottom: 5px;
-  padding: 18px 10px 15px;
-}
-
-label {
-  margin: 15px 0 ;
-  padding: 0px;
-}
-
-input:hover {
-    transition: border-color 0.3s ease-in-out;
-}
-
-button {
-  cursor: pointer;
-  background-color: var(--yellowgold);
-  border-radius: 50px;
-  padding: 15px 25px;
-  color: var(--skydark);
-  width: 100%;
-  margin-top: 40px;
-  border: none;
-  transition: background-color 0.3s ease-in-out;
-
-}
-button:hover {
-  background-color: var(--yellowlight);
-}
-
-input:focus {
-  outline:none;
-  background-color:  rgba(4, 31, 65, 0.5);
-}
-
-::-webkit-input-placeholder {color: rgba(212, 212, 212, 0.6);}
-:-moz-placeholder {color: rgba(212, 212, 212, 0.6);}
-::-moz-placeholder {color: rgba(212, 212, 212, 0.6);}
-:-ms-input-placeholder {color: rgba(212, 212, 212, 0.6);}
-
-.error {
-  color: #ce30ff;
-  font-size: 16px;
-  line-height: 1.5;
-  padding-left: 10px
-}
-
-.popup {
+.accordion-content {
   display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 340px;
-  transform: translate(-50%, -50%);
-  background-color: var(--yellowlight);
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
-  z-index: 9999;
 }
 
-.popup h3, .popup p, .popup button {
-  color: var(--skydark);
+.accordion-flex {
+  display: flex;
+  margin-top: 30px;
 }
 
-#closePopup {
-  background-color: white ;
-  width: 100%;
-  margin-top: 25px;
-  text-align: center;
-  transition: background-color 0.3s ease-in-out;
+.accordion-flex img {
+  width: 33%;
+  padding-right: 30px;
 }
 
-#closePopup:hover {
-  background-color: var(--yellowlight);
+.accordion-flex p {
+  width: 40%;
 }
 
-.blurpop {
-    filter: blur(5px); 
+.open .accordion-header {
+  
 }
-.freeze {
-  position: fixed;
-  margin: 0 auto;
-  width: 100%;
-  background: var(--skydark);
-}
-
-
-/*----------------------------------
-  Stars
------------------------------------*/
-
-.starry-sky {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.star {
-  position: absolute;
-  background-color: white;
-  border-radius: 50%;
-  animation: twinkling 3s linear infinite;
-  opacity: 0.5;
-}
-
-@keyframes twinkling {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 0.5; }
-}
-
-.star:nth-child(odd) {
-  width: 3px;
-  height: 3px;
-}
-
-.star:nth-child(even) {
-  width: 2px;
-  height: 2px;
-}
-
 
 /*----------------------------------
   Footer
 -----------------------------------*/
 
-.angebotnavfooter {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
 footer {
   display: flex;
   z-index: 2;
   position: relative;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   gap: 40px;
   margin: 50px auto 30px;
-  padding: 0 30px;
-  max-width: 1000px;
+  padding: 0 50px;
+  max-width: 2000px;
 }
 
 footer a {
   display: block;
-  color: var(--yellowgold);
-  font-size: var(--fontsmall);
-  border-left: solid 2px var(--yellowgold);
-  padding-left: 15px;
+} 
+
+.footerlogo {
+  width: 250px;
+}
+.footerinstagram {
+  width: 50px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+.footerinstagram:hover {
+  opacity: 0.5;
+}
+.footerinfo {
+  display: flex;
+  gap: 100px;
 }
 
 /*----------------------------------
@@ -755,119 +376,17 @@ footer a {
 
 
 @media (max-width: 870px) {
-  /* root */
-  :root {--fonttext: 18px;}
-  input {margin-bottom: 0;}
-
-  /* nav */
-  .burger-icon {
-    display: flex;
-    position: relative;
-    z-index: 1;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  .nav-list-cont{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    display: none;
-  }
-  .nav-list {
-    display: flex;
-    padding: 120px 20%;
-    height: 100vh;
-    margin: 0;
-    background-color: var(--skydark);
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  #angebotBtn {display: none;}
-  .nav-resp {display: block;}
-
-  .nav-list li {
-    display: block;
-    margin-bottom: 15px;
-    position: relative;
-    opacity: 0.75;
-  }
-  .nav-list li a {
-    padding: 5px 15px;
-  }
-
-  /* stars */
-  .star {
-    position: absolute;
-    background-color: white;
-    border-radius: 50%;
-    animation: twinkling 3s linear infinite;
-    opacity: 0.25;
-  }
   
-  @keyframes twinkling {
-    0%, 100% { opacity: 0; }
-    50% { opacity: 0.25; }
-  }
-  /* subpage */
-  .description {flex-direction: column;}
-  .dprice, .dwhat {width: 100%;}
-  .booking {padding: 5px 20px 20px;}
-  .astromap {margin: 50px 0px 0}
-  .preiscontainer {gap: 20px; margin: 80px 0 100px;}
-  .preislayer {flex-basis: 100%; padding: 25px 20px 25px;}
-  .payBtncont {flex-direction: column;}
-
-  /* footer */
-  .angebotnavfooter {
-    flex-direction: column-reverse;
-    height: auto;
-    margin: 80px 0;
-  }
-  .angebot a {
-    position: relative;
-    display: block;
-    margin-bottom: 10px;
-    top: auto !important;
-    right: auto !important;
-  }
-
-  .angebot a::before {
-    top: 10px;
-  }
-
-  footer {
-    flex-direction: column;
-    gap: 20px;
-  }
   #cookiebanner {width: calc(100% - 40px); left: 20px;}
   #cookiebanner.visible {bottom: 30px;}
 }
 
 @media (max-width: 720px) {
-  /* start */
-  .intro {margin-top: 80px;}
-  .intro h1 {margin: 70px 0 0;}
-  .center {margin-right: 0; margin-left: 5%;}
+
 }
 
 
 @media (max-width: 450px) {
-  /* root */
-  :root {--fonttitle: 55px;}
-
-  /* start */
- .rotating-image {
-  width: 16px;
-  height: 16px;
-  margin-left: -8px;
-  margin-top: -8px;
-  }
-
-  .outercirclesun {
-    width: 270px;
-  }
+ 
   
 }
