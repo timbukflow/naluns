@@ -33,27 +33,31 @@ h1, h2, h3, p, a, li,figcaption ,button, .accordion {
   color: white;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.25px;
+  line-height: 1.3;
   text-decoration: none;
   hyphens: auto;
   -webkit-hyphens: auto; 
   -ms-hyphens: auto; 
 }
 
-h1,h2,p,figcaption {
+h1, h2, p, figcaption {
   margin: 0 30px;
+}
+p {
+  padding: 20px 0;
 }
 
 h1.intro {
   font-size: var(--font-text-small);
 }
 h1.big {
-  font-size: 250px;
+  font-size: 15vw;
   margin-top: 120px;
   text-align: center;
 }
 
-.font-title {font-size: var(--font-title);}
-.font-text-big {font-size: var(--font-text-big);}
+.font-title {font-size: var(--font-title);line-height: 1;}
+.font-text-big {font-size: var(--font-text-big);line-height: 1.2;}
 
 
 li {list-style: none;}
@@ -89,6 +93,7 @@ article {
 
 .green{ background-color: var(--nalunsgreen);}
 .clay{ background-color: var(--nalunsclay);}
+.braun{ background-color: var(--nalunsbraun);}
 
 /*----------------------------------
   Navigation
@@ -117,6 +122,7 @@ nav {
   z-index: 9;
   width: 100%;
   background-color: var(--nalunsgreen);
+  transition: background-color 0.5s ease-in-out;
 }
 .navcont {
   display: flex;
@@ -129,14 +135,15 @@ nav {
   flex-basis: 25%;
 }
 
-.navcont li {
+.navcont li a {
   margin-right: 10px;
   cursor: pointer;
   opacity: 0.5;
+  display: inline-block;
   transition: opacity 0.3s;
 }
 
-.navcont li:hover {
+.navcont li a:hover {
   opacity: 1;
 }
 
@@ -148,7 +155,7 @@ nav {
   display: flex;
   position: relative;
   flex-basis: 75%;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -166,6 +173,10 @@ nav {
 
 #naluns-image {background-image: url('img/naluns-image.jpg');}
 #pizokel-image {background-image: url('img/pizokel-image.jpg');}
+#vizokel-image {background-image: url('img/naluns-image.jpg');}
+#spaetzli-image {background-image: url('img/pizokel-image.jpg');}
+#manufaktur-image {background-image: url('img/naluns-image.jpg');}
+#kontakt-image {background-image: url('img/pizokel-image.jpg');}
 
 
 /*----------------------------------
@@ -214,6 +225,23 @@ width: 100%;
 .proimg h2 {
   bottom: 30px;
   position: absolute;
+}
+
+/*----------------------------------
+  Manufaktur
+-----------------------------------*/
+.halfhalftcont {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.halfhalftcont div {
+  flex-basis: 50%;
+}
+
+.halfhalftcont img {
+  width: 100%;
 }
 
 
@@ -272,6 +300,7 @@ footer {
   z-index: 2;
   position: relative;
   justify-content: space-between;
+  align-items: flex-end;
   flex-direction: row;
   gap: 40px;
   margin: 50px auto 30px;
@@ -285,18 +314,28 @@ footer a {
 
 .footerlogo {
   width: 250px;
+  transition: opacity 0.5s;
 }
 .footerinstagram {
   width: 50px;
   cursor: pointer;
   transition: opacity 0.5s;
 }
-.footerinstagram:hover {
-  opacity: 0.5;
-}
+
 .footerinfo {
   display: flex;
+  align-items: flex-end;
   gap: 100px;
+}
+.footerinfo a {
+  padding-top: 5px;
+  transition: opacity 0.5s;
+}
+
+.footerlogo:hover,
+.footerinstagram:hover,
+.footerinfo a:hover {
+  opacity: 0.5;
 }
 
 /*----------------------------------

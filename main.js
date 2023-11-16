@@ -27,12 +27,25 @@ $(".navbar").click(function() {
 
 $(".navcont li a").mouseenter(function() {
   var targetImageId = $(this).attr("href").replace("#", "") + "-image";
+  var targetLink = $(this).attr("href");
+  var backgroundColor = "";
+
+  if (targetLink === "vizokel") {
+    backgroundColor = "#CF9173";
+  } else if (targetLink === "spaetzli") {
+    backgroundColor = "#D2B569";
+  } else if (targetLink === "manufaktur") {
+    backgroundColor = "#B0A294";
+  }
+
+  $(".nav").css("background-color", backgroundColor);
   $(".image").not("#" + targetImageId).css({ opacity: 0 });
   $("#" + targetImageId).css({ opacity: 1 });
 });
 
 $(".navcont li a").mouseleave(function() {
   $(".image").css({ opacity: 0 });
+  $(".nav").css("background-color", "");
 });
 
 // Accordion
