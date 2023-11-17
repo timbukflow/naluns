@@ -12,41 +12,78 @@
 </head>
 
 <body class="braun">
+    <header>
+        <a href="index">naluns - traditionelle Schweizer Küche neu interpretiert.</a>
+        <div class="title">
+            <h1 class="big">manufaktur</h1>
+        </div>
+        <figure class="fadein">
+            <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-vizokel-spaetzli-home">
+            <figcaption>
+            Manufaktur: Pizokel, Vizokel und Spätzli werden mit regionalen Zutaten in der hauseigenen Manufaktur hergestellt.  
+            </figcaption>  
+        </figure>
+    </header>
+
     <section>
-        <header>
-            <h1 class="intro">naluns - traditionelle Schweizer Küche neu interpretiert.</h1>
-        </header>
         <article>
-            <h1 class="big">Manufaktur</h1>
-            <figure>
-                <img src="img/naluns-vizokel.webp" alt="naluns-vizokel">  
-                <figcaption>
-                    Manufaktur:  Pizokel, Vizokel und Spätzli werden mit regionalen Zutaten in der hauseigenen Manufaktur hergestellt.
-                </figcaption>
-            </figure>
-            <div class="halfhalftcont">
-                <div>
-                    <img src="img/naluns-vizokel-produkt.webp" alt="naluns-vizokel">
-                </div>
-                <div>
-                    <h2 class="font-title" >Handarbeit</h2>
-                    <p>
-                        Bei naluns werden die Produkte mit großer Sorgfalt und nach alten, überlieferten Rezepten hergestellt. Unser Teig wird geschmeidig geschlagen, damit die Pizokel, Vizokel und Spätzli luftig werden. Nachdem der Teig ausreichend geruht hat, wird er von Hand weiterverarbeitet und die Produkte gekocht. Etwa 200 Kilogramm fertigt naluns nach diesem Prinzip pro Tag in der hauseigenen Manufaktur.
-                    </p>
-                </div> 
+            <div class="content fadein">
+                <h1 class="font-text-big">
+                Bei naluns werden die Produkte mit großer Sorgfalt und nach alten, überlieferten Rezepten hergestellt. Unser Teig wird geschmeidig geschlagen, damit die Pizokel, Vizokel und Spätzli besonders luftig werden. Nachdem der Teig ausreichend geruht hat, wird er von Hand weiterverarbeitet und die Produkte gekocht. Etwa 200 Kilogramm fertigt naluns nach diesem Prinzip pro Tag in der hauseigenen Manufaktur.
+                </h1>
             </div>
-            <div class="halfhalftcont">
-                
-                <div>
-                    <h2 class="font-title" >Qualität in der Herstellung</h2>
-                    <p>
-                        Unsere Pizokel, Vizokel und Spätzli werden mit Hingabe und Präzision hergestellt. Der Teig bekommt Zeit zum Ruhen, die regionalen Zutaten verleihen den Produkten eine einzigartige Note. Sie verleihen unseren Produkten den authentischen Geschmack, der die Essenz des Engadins einfängt.
-                    </p>
+        </article>
+        <article>               
+            <div class="accordion">
+                <div class="accordion-item fadein">
+                    <div class="accordion-header">Qualität in der Herstellung</div>
+                    <div class="accordion-content">
+                        <div class="accordion-flex">
+                            <div class="tabs">
+                                <p class="font-text-big">
+                                Das kleine Team von naluns stellt täglich Pizokel, Vizokel und Spätzli mit Hingabe und Präzision in der eigenen Manufaktur her. Die regionalen Zutaten verleihen den Produkten eine einzigartige Note. Sie sorgen für den authentischen Geschmack, der die Essenz des Engadins einfängt. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                <div>
-                    <img src="img/naluns-vizokel-produkt.webp" alt="naluns-vizokel">
+                <div class="accordion-item fadein">
+                    <div class="accordion-header">Naturbelassen</div>
+                    <div class="accordion-content">
+                        <div class="accordion-flex">
+                            <div class="tabs">
+                                <p class="font-text-big">
+                                Die verwendeten Zutaten beziehen wir lokal, oft aus der unmittelbaren Umgebung der Manufaktur. Diese regionale Verbundenheit trägt zur Qualität und Natürlichkeit unserer Produkte bei, verkürzt Lieferketten und schont die Umwelt. Für genussvolle Produkte, auf die Sie sich verlassen können. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </article>
+        <article class="manuimgcont">
+            <div class="manuimgthree">
+                <div class="fadein">
+                    <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                </div>
+                <div class="fadein">
+                    <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                </div>
+                <div class="fadein">
+                    <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                </div>
+            </div>
+            <div class="manuimgone fadein">
+                <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+            </div>
+        </article>
+        <article>
+            <div class="content fadein">
+                <p class="font-text-big"> 
+                    Sie wollen mehr über traditionelle Schweizer Küche erfahren, haben Fragen oder Anregungen? Sie möchten naluns Produkte direkt über die Manufaktur beziehen? Dann kontaktieren Sie uns.
+                </p>
+                <a class="font-text-big" href="tel:++41712426653">Telefon +41 71 242 66 53</a> 
+                <a class="font-text-big" href="mailto:info@naluns.ch" target="_top">E-Mail: info@naluns.ch</a>
             </div>
         </article>        
     </section>

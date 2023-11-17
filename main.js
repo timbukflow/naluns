@@ -1,24 +1,6 @@
 $(document).ready(function() {
-  
 
-/////////// Navigation ///////////
-// const nav = document.querySelector('nav');
-// let lastScrollTop = 0;
-// const navShowThreshold = 100;
-
-// window.addEventListener('scroll', () => {
-//     const scrollTop = window.scrollY || document.documentElement.scrollTop;
-
-//     if (scrollTop > lastScrollTop + navShowThreshold) {
-//     nav.style.top = '-108px';
-//     lastScrollTop = scrollTop;
-//     } else if (scrollTop < lastScrollTop - navShowThreshold) {
-//     nav.style.top = '30px';
-//     lastScrollTop = scrollTop;
-//     }
-// });
-
-// Navigation
+/////////// Navigation ///////////// 
 $(".navbar").click(function() {
   $(this).children().toggleClass("spread");
   $(".nav").stop(true,true).fadeToggle(800);
@@ -36,7 +18,9 @@ $(".navcont li a").mouseenter(function() {
     backgroundColor = "#D2B569";
   } else if (targetLink === "manufaktur") {
     backgroundColor = "#B0A294";
-  }
+  } else if (targetLink === "daniel-hiederer") {
+    backgroundColor = "#B0A294";
+  } 
 
   $(".nav").css("background-color", backgroundColor);
   $(".image").not("#" + targetImageId).css({ opacity: 0 });
@@ -48,7 +32,7 @@ $(".navcont li a").mouseleave(function() {
   $(".nav").css("background-color", "");
 });
 
-// Accordion
+/////////// Accordion ///////////// 
 $(".accordion-item").click(function() {
   if (!$(this).hasClass("open")) {
     $(".accordion-item").removeClass("open");
@@ -60,5 +44,26 @@ $(".accordion-item").click(function() {
     $(this).find(".accordion-content").slideUp();
   }
 });
+
+/////////// Fadin Function /////////////  
+const fadeInElements = $('.fadein');
+  
+function checkFadeIn() {
+  const windowHeight = $(window).height();
+
+  fadeInElements.each(function() {
+    const elementTop = $(this).offset().top;
+    const scrollPosition = $(window).scrollTop();
+
+    if (elementTop < windowHeight * 1 + scrollPosition) {
+      $(this).css({transform: 'translateY(0)'});
+    } else {
+      $(this).css({transform: 'translateY(100px)'});
+    }
+  });
+}
+
+$(window).on('scroll', checkFadeIn);
+checkFadeIn();
 
 });

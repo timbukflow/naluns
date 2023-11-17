@@ -12,39 +12,61 @@
 </head>
 
 <body class="clay">
+    <header>
+        <a href="index">naluns - traditionelle Schweizer Küche neu interpretiert.</a>
+        <div class="title">
+            <h1 class="big">vizokel</h1>
+        </div>
+        <figure class="fadein">
+            <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-vizokel-spaetzli-home">
+            <figcaption>
+                Vizokel: Vegane Alternative der traditionellen Pizokel. 
+            </figcaption>  
+        </figure>
+    </header>
+
     <section>
-        <header>
-            <h1 class="intro">naluns - traditionelle Schweizer Küche neu interpretiert.</h1>
-        </header>
         <article>
-            <h1 class="big">Vizokel</h1>
-            <figure>
-                <img src="img/naluns-vizokel.webp" alt="naluns-vizokel">  
-                <figcaption>
-                    Vizokel: Vegane Alternative zu den traditionellen Pizokeln.
-                </figcaption>
-            </figure>
-            <div class="two-thirds">
-                <p class="font-text-big">
+            <div class="content fadein">
+                <h1 class="font-text-big">
                     naluns möchte genussvolle Lebensmittel für alle verfügbar machen. Entdecken Sie unsere Vizokel, die köstliche, vegane Alternative zu unseren traditionellen Pizokeln. Mit sorgfältig ausgewählten Zutaten bieten sie eine innovative und rein pflanzliche Genussoption.
                     <br><br>
                     Probieren Sie es aus.
-                </p>
+                </h1>
             </div>
+        </article>
+        <article>               
             <div class="accordion">
-                <div class="accordion-item">
+                <div class="accordion-item fadein">
                     <div class="accordion-header">Vizokel</div>
                     <div class="accordion-content">
                         <div class="accordion-flex">
-                            <img src="img/naluns-vizokel-produkt.webp" alt="naluns-vizokel-produkt">
-                            <p>
-                                Die vegane Alternative zu den traditionellen Pizokeln. Mit geschrotetem Leinsamen, Hafermilch und einer Prise Kurkuma. Schmeckt besonders gut als Beilage zu geschmortem Tofu und Pilzragout oder als Hauptspeise mit Ihrem Lieblingsgemüse.
-                                <br><br>
-                                Zutaten: Milch, Hafermilch, Bio-Zitronenthymian, Leinsamen, Salk, Muskat, Kurkuma, Wasser
-                            </p>
+                            <div>
+                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                            </div>
+                            <div>
+                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                            </div>
+                            <div>
+                                <p>
+                                    Die vegane Alternative zu den traditionellen Pizokeln. Mit geschrotetem Leinsamen, Hafermilch und einer Prise Kurkuma. Schmeckt besonders gut als Beilage zu geschmortem Tofu und Pilzragout oder als Hauptspeise mit Ihrem Lieblingsgemüse.
+                                    <br><br>
+                                    Zutaten:<br>
+                                    Milch, Hafermilch, Bio-Zitronenthymian, Leinsamen, Salz, Muskat, Kurkuma, Wasser
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </article>
+        <article>
+            <div class="content fadein">
+                <p class="font-text-big"> 
+                    Sie wollen mehr über traditionelle Schweizer Küche erfahren, haben Fragen oder Anregungen? Sie möchten naluns Produkte direkt über die Manufaktur beziehen? Dann kontaktieren Sie uns.
+                </p>
+                <a class="font-text-big" href="tel:++41712426653">Telefon +41 71 242 66 53</a> 
+                <a class="font-text-big" href="mailto:info@naluns.ch" target="_top">E-Mail: info@naluns.ch</a>
             </div>
         </article>        
     </section>

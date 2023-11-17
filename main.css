@@ -4,9 +4,9 @@
   --nalunsyellow: #D2B569;
   --nalunsbraun: #B0A294;
 
-  --font-big: 250px;
-  --font-title: 80px;
-  --font-text-big: 40px;
+  --font-big: 120px;
+  --font-title: 70px;
+  --font-text-big: 34px;
   --font-text-small: 21px;
 }
 
@@ -26,7 +26,7 @@ body.fixed {
 /*----------------------------------
   Font
 -----------------------------------*/
-h1, h2, h3, p, a, li,figcaption ,button, .accordion {
+h1, h2, h3, p, a, li, figcaption, button, .accordion {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-weight: 600;
   font-size: var(--font-text-small);
@@ -40,31 +40,46 @@ h1, h2, h3, p, a, li,figcaption ,button, .accordion {
   -ms-hyphens: auto; 
 }
 
-h1, h2, p, figcaption {
+h1, h2, p, figcaption, button {
   margin: 0 30px;
 }
 p {
   padding: 20px 0;
 }
 
-h1.intro {
-  font-size: var(--font-text-small);
-}
 h1.big {
-  font-size: 15vw;
-  margin-top: 120px;
-  text-align: center;
+  font-size: var(--font-big);
+  line-height: 0.75;
+  letter-spacing: -5px;
+  padding-bottom: 12px;
+  margin: 0;
 }
 
-.font-title {font-size: var(--font-title);line-height: 1;}
-.font-text-big {font-size: var(--font-text-big);line-height: 1.2;}
+.font-title {
+  font-size: var(--font-title);
+  line-height: 1;
+}
+.font-text-big {
+  font-size: var(--font-text-big);
+  line-height: 1.2;
+  padding: 30px 0 ;
+}
 
 
 li {list-style: none;}
 li a {font-size: var(--font-text-big);}
 
-a {
-  cursor: pointer;
+a {cursor: pointer;}
+
+button {
+  background-color: white;
+  color: var(--nalunsbraun);
+  padding: 10px 15px;
+  border: none;
+  transition: padding 0.3s ease-in-out;
+}
+button:hover {
+  padding: 10px 20px;
 }
 
 
@@ -83,17 +98,133 @@ section {
   z-index: 2;
 }
 
-article {
-  margin-bottom: 150px;
-}
-
-.two-thirds {
- margin-left: 33%;
-}
-
 .green{ background-color: var(--nalunsgreen);}
 .clay{ background-color: var(--nalunsclay);}
+.yellow{ background-color: var(--nalunsyellow);}
 .braun{ background-color: var(--nalunsbraun);}
+
+.fadein { 
+  transform: translateY(100px);
+  transition: transform 1s;
+  will-change: transform;
+}
+
+/*----------------------------------
+  Header
+-----------------------------------*/
+header {
+  margin: 30px auto;
+  padding: 0 50px;
+  max-width: 2000px;
+}
+header a {
+  width: 400px;
+  padding: 0 30px;
+  display: block;
+  font-size: var(--font-text-small);
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 50px 0;
+  padding: 0 30px;
+}
+.title img {
+  width: 80px;
+  margin-right: 10px;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  margin-top: 20px;
+  width: 30%;
+}
+figure img {
+width: 100%;
+}
+
+.content {
+  margin: 120px 0 120px 33%;
+}
+.content a {
+  margin: 0 30px;
+  display: block;
+  padding: 0;
+}
+
+/*----------------------------------
+  Product Intro
+-----------------------------------*/
+.proteaser {
+  width: 350px;
+}
+.productintro {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.procontainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+.proimg {
+  position: relative;
+}
+.proimg a{
+  display: inline-block;
+}
+.proimg img {
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+.proimg:hover img {
+  opacity: 0.5;
+}
+.proimg h2 {
+  bottom: 30px;
+  position: absolute;
+}
+
+/*----------------------------------
+  Manufaktur Intro
+-----------------------------------*/
+
+.manucontainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  position: relative;
+}
+.manuinfo {
+  width: 50%;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+.manuinfo a {
+  margin-left: 30px;
+  border-bottom: solid 3px white;
+  padding-bottom: 5px;
+}
+
+/*----------------------------------
+  Vertrieb Intro
+-----------------------------------*/
+
+.vlogocont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 50px;
+}
+.vlogocont img {
+  width: 250px;
+}
+
 
 /*----------------------------------
   Navigation
@@ -110,10 +241,14 @@ nav {
   width: 40px;
   display: inline-block;
   cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
 }
 .navbar img {
   float: left;  
   transition: padding-bottom 0.5s ease-in-out;
+}
+.navbar:hover {
+  opacity: 0.75;
 }
 .nav {
   position: fixed;
@@ -171,86 +306,36 @@ nav {
   opacity: 0;
 }
 
-#naluns-image {background-image: url('img/naluns-image.jpg');}
+#index-image {background-image: url('img/index-image.jpg');}
 #pizokel-image {background-image: url('img/pizokel-image.jpg');}
 #vizokel-image {background-image: url('img/naluns-image.jpg');}
 #spaetzli-image {background-image: url('img/pizokel-image.jpg');}
 #manufaktur-image {background-image: url('img/naluns-image.jpg');}
+#daniel-hiederer-image {background-image: url('img/naluns-image.jpg');}
 #kontakt-image {background-image: url('img/pizokel-image.jpg');}
 
 
-/*----------------------------------
-  Header
------------------------------------*/
-header {
-  margin-top: 30px;
-}
-
-/*----------------------------------
-  Start
------------------------------------*/
-
-figure {
-  margin: 100px 0;
-}
-figcaption {
-  margin-top: 15px;
-}
-
-figure img {
-width: 100%;
-}
-
-/*----------------------------------
-  Product Intro
------------------------------------*/
-
-.productintro {
-  display: flex;
-  gap: 30px;
-  margin-top: 30px;
-}
-.procontainer {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-}
-.proimg {
-  position: relative;
-  margin-bottom: 15px;
-}
-.proimg img {
-  width: 100%;
-}
-.proimg h2 {
-  bottom: 30px;
-  position: absolute;
-}
 
 /*----------------------------------
   Manufaktur
 -----------------------------------*/
-.halfhalftcont {
+.manuimgcont {
+  margin: 120px 0;
+}
+.manuimgthree {
   display: flex;
-  align-items: center;
-  gap: 50px;
-  margin-bottom: 100px;
+  gap: 30px;
+  margin-bottom: 30px;
 }
-.halfhalftcont div {
-  flex-basis: 50%;
-}
-
-.halfhalftcont img {
+.manuimgthree img,
+.manuimgone img{
   width: 100%;
 }
-
 
 /*----------------------------------
   Accordion
 -----------------------------------*/
-.accordion {
-  margin-top: 50px;
-}
+
 .accordion-item {
   margin-bottom: 10px;
 }
@@ -278,24 +363,24 @@ width: 100%;
   margin-top: 30px;
 }
 
+.accordion-flex div {
+  width: 100%;
+}
+
+.accordion-flex .tabs {
+  margin-left: 33%;
+}
+
 .accordion-flex img {
-  width: 33%;
+  width: 100%;
   padding-right: 30px;
-}
-
-.accordion-flex p {
-  width: 40%;
-}
-
-.open .accordion-header {
-  
 }
 
 /*----------------------------------
   Footer
 -----------------------------------*/
 
-footer {
+.footer {
   display: flex;
   z-index: 2;
   position: relative;
@@ -303,12 +388,12 @@ footer {
   align-items: flex-end;
   flex-direction: row;
   gap: 40px;
-  margin: 50px auto 30px;
+  margin: 50px auto;
   padding: 0 50px;
   max-width: 2000px;
 }
 
-footer a {
+.footer a {
   display: block;
 } 
 
@@ -325,10 +410,9 @@ footer a {
 .footerinfo {
   display: flex;
   align-items: flex-end;
-  gap: 100px;
+  gap: 40px;
 }
 .footerinfo a {
-  padding-top: 5px;
   transition: opacity 0.5s;
 }
 
