@@ -33,16 +33,13 @@
                 </h1>
                 <p class="font-text-big fadein">
                     Daniel Hiederer, der Gründer von naluns, liebt als gelernter Koch das kreative Handwerk und den Genuss.
-                </p>
-                <p class="font-text-big fadein">
+                    <br><br>
                     In Zürich hat er mehrere Restaurants aufgebaut und zusätzlich die Ausbildung zum diplomierten Betriebsleiter absolviert.
-                </p>
-                <p class="font-text-big fadein">
+                    <br><br>
                     Daniel Hiederer führte über zehn Jahre die Jugendherberge in Scuol und hat dabei mit viel Herz und Engagement die individuellen Bedürfnisse der Gäste kennengelernt. Die Arbeit prägte seine Leidenschaft für frische und vollwertige Lebensmittel.
-                </p>
-                <p class="font-text-big fadein">
+                    <br><br>
                     In seiner Manufaktur interpretiert Daniel Hiederer traditionelle Rezepte neu: frisch und regional, mit viel Herz handgemacht. Ehrlich und bodenständig, aber auch mit einer überraschenden Note.
-                </p>                
+                </p>        
                 <p class="font-text-big fadein"> 
                     Sie wollen mehr über traditionelle Schweizer Küche erfahren, haben Fragen oder Anregungen? Sie möchten naluns Produkte direkt über die Manufaktur beziehen? Dann kontaktieren Sie uns.
                 </p>

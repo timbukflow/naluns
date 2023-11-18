@@ -39,6 +39,10 @@ $(".accordion-item").click(function() {
     $(this).addClass("open");
     $(".accordion-content").slideUp();
     $(this).find(".accordion-content").slideDown();
+
+    // Scrollen zum geöffneten Accordion
+    var scrollTo = $(this).offset().top - 20; 
+    $("html, body").animate({ scrollTop: scrollTo }, 500);
   } else {
     $(this).removeClass("open");
     $(this).find(".accordion-content").slideUp();
