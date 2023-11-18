@@ -47,7 +47,7 @@
                             <h2 class="font-title">Pizokel</h2>
                         </a>
                     </div>
-                    <p>Das Traditionsprodukt <br> aus dem Engadin</p>
+                    <p>Das Traditionsprodukt aus dem Engadin</p>
                 </div>
                 <div class="procontainer fadein">
                     <div class="proimg">
@@ -56,7 +56,7 @@
                             <h2 class="font-title">Vizokel</h2>
                         </a>
                     </div>
-                    <p>Die rein pflanzliche <br> Alternative unserer Pizokel</p>
+                    <p>Die rein pflanzliche Alternative unserer Pizokel</p>
                 </div>
                 <div class="procontainer fadein">
                     <div class="proimg">
@@ -65,7 +65,7 @@
                             <h2 class="font-title">Spätzli</h2>
                         </a>
                     </div>
-                    <p>Der Klassiker: Schmeckt <br> als Beilage und als Hauptspeise</p>
+                    <p>Der Klassiker: Schmeckt als Beilage und als Hauptspeise</p>
                 </div>
             </div>
         </article>

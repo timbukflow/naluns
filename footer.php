@@ -1,7 +1,4 @@
 <footer>
-    <div class="footermountain fadein">
-        <img src="img/naluns-berg-footer.svg" alt="naluns-berg-footer">   
-    </div>
     <div class="footer">
         <div class="footerlogo">
             <a href="index">

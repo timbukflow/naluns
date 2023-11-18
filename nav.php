@@ -20,7 +20,7 @@
             <li><a href="kontakt">Kontakt</a></li>
         </ul>
         <div class="images">
-            <div class="image" id="index-image"></div>
+            <div class="image on" id="index-image"></div>
             <div class="image" id="pizokel-image"></div>
             <div class="image" id="vizokel-image"></div>
             <div class="image" id="spaetzli-image"></div>

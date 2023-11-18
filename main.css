@@ -40,16 +40,12 @@ h1, h2, h3, p, a, li, figcaption, button, .accordion {
   -ms-hyphens: auto; 
 }
 
-h1, h2, p, figcaption, button {
-  margin: 0 30px;
-}
-p {
-  padding: 20px 0;
-}
+h1, h2, p, figcaption, button {margin: 0 30px;}
+p {padding: 20px 0;}
 
 h1.big {
   font-size: var(--font-big);
-  line-height: 0.75;
+  line-height: 0.9;
   letter-spacing: -5px;
   padding-bottom: 12px;
   margin: 0;
@@ -57,7 +53,7 @@ h1.big {
 
 .font-title {
   font-size: var(--font-title);
-  line-height: 1;
+  line-height: 0.9;
 }
 .font-text-big {
   font-size: var(--font-text-big);
@@ -256,18 +252,20 @@ nav {
   top: 0;
   z-index: 9;
   width: 100%;
+  height: 100vh;
   background-color: var(--nalunsgreen);
   transition: background-color 0.5s ease-in-out;
 }
 .navcont {
   display: flex;
   height: 100vh;
+  width: 100%;
   align-items: center;
 }
 .navcont ul {
   padding: 0;
   margin-left: 30px;
-  flex-basis: 25%;
+  width: 100%;
 }
 
 .navcont li a {
@@ -289,21 +287,25 @@ nav {
 .images {
   display: flex;
   position: relative;
-  flex-basis: 75%;
+  width: 100%;
+  height: 90vh;
+  margin: 50px;
   justify-content: flex-start;
   align-items: center;
 }
 
 .image {
-  width: 50%;
-  height: 75vh;
+  width: 100%;
+  height: 90vh;
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  transform: rotate(15deg);
   transition: opacity 1s;
   opacity: 0;
+}
+.on {
+  opacity: 1;
 }
 
 #index-image {background-image: url('img/index-image.jpg');}
@@ -343,6 +345,7 @@ nav {
 .accordion-header {
   border-bottom: white 3px solid;
   font-size: var(--font-title);
+  line-height: 1.1;
   margin-left: 33%;
   padding: 10px 30px;
   cursor: pointer;
@@ -498,18 +501,109 @@ nav {
 -----------------------------------*/
 
 
-@media (max-width: 870px) {
-  
-  #cookiebanner {width: calc(100% - 40px); left: 20px;}
-  #cookiebanner.visible {bottom: 30px;}
+@media (max-width: 1100px) {
+  :root {
+    --font-big: 100px;
+    --font-title: 50px;
+    --font-text-big: 26px;
+    --font-text-small: 19px;
+  }
+  h1, h2, p, figcaption, button {margin: 0 30px;}
+  figcaption {margin-top: 20px;}
+
+  /* header */
+  header, section, .footer {padding: 0 30px;}
+  header a {width: 360px;}
+  .title img {width: 65px;}
+
+  /* basic */
+  .content {margin: 90px 0 90px 33%;}
+  /* intro product */
+  .productintro {gap: 20px;}
+  .accordion-flex img {padding-right: 20px;}
+
+  /* footer */
+  .footer {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footerinfo {
+    align-items: flex-start;
+    gap: 0px;
+    flex-direction: column;
+  }
+  .footerinfo a {
+    padding-bottom: 5px;
+  }
+  .footerinstagram {
+    margin-top: 20px;
+  }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 810px) {
+  figcaption {width: calc(100% - 60px);}
+  .content {margin: 60px 0 60px 0;}
 
+  /* accordion */
+  .accordion-header {margin-left: 0;}
+  .accordion-flex {flex-direction: column; gap: 20px;}
+  .accordion-flex img {padding-right: 0px;}
+
+  /* product intro */
+  .productintro {flex-direction: column;}
+  
+  /* manufaktur intro */
+  .manucontainer {overflow: hidden; align-items: center;}
+  .manucontainer img {width: 200%;}
+  /* footer */
+  footer{margin: 100px 30px 0;}
+
+  /* #cookiebanner {width: calc(100% - 40px); left: 20px;}
+  #cookiebanner.visible {bottom: 30px;} */
 }
 
 
-@media (max-width: 450px) {
- 
-  
+@media (max-width: 680px) {
+  :root {
+    --font-big: 80px;
+    --font-title: 40px;
+    --font-text-big: 24px;
+    --font-text-small: 16px;
+  }
+  nav {top: 20px;right: 10px;}
+  .images {display: none;}
+  .navbar {width: 35px;}
+  .navcont li a {opacity: 1; padding-bottom: 5px;}
+  header {margin: 20px auto;}
+  header, section, .footer {padding: 0 10px;}
+  header a, .title {padding: 0 20px;}
+  header a {width: 310px;}
+  h1, h2, p, figcaption { margin: 0 20px;}
+  figcaption {margin-top: 20px;}
+
+  figure {
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  figure img {width: 150%;}
+  .manuinfo {width: 100%;}
+  .manuinfo a {margin-left: 20px;}
+  .vlogocont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 30px;
+  }
+  .content a {margin: 0 20px;}
+
+  /* accordion */
+  .accordion-header {padding: 10px 20px;}
+  /* foooter */
+  footer {margin: 100px 20px 0;}
 }
