@@ -40,7 +40,7 @@ h1, h2, h3, p, a, li, figcaption, button, .accordion {
   -ms-hyphens: auto; 
 }
 
-h1, h2, p, figcaption, button {margin: 0 30px;}
+h1, h2, p, figcaption {margin: 0 30px;}
 p {padding: 20px 0;}
 
 h1.big {
@@ -443,12 +443,12 @@ nav {
 
 #cookiebanner {
   position: fixed;
-  bottom: -300px;
-  left: 40px;
+  bottom: -500px;
+  right: 40px;
   border-radius: 5px;
-  width: 350px;
+  width: 420px;
   background-color: white;
-  padding: 15px;
+  padding: 25px;
   z-index: 9999;
   transition: bottom 0.5s cubic-bezier(0.2, 0.8, 0.3, 2);
 }
@@ -456,6 +456,7 @@ nav {
 #cookiebanner p {
   color: var(--nalunsgreen);
   margin: 0;
+  padding: 0;
 }
 
 #cookiebanner.visible {
@@ -508,7 +509,7 @@ nav {
     --font-text-big: 26px;
     --font-text-small: 19px;
   }
-  h1, h2, p, figcaption, button {margin: 0 30px;}
+  h1, h2, p, figcaption {margin: 0 30px;}
   figcaption {margin-top: 20px;}
 
   /* header */
@@ -558,9 +559,6 @@ nav {
   .manucontainer img {width: 200%;}
   /* footer */
   footer{margin: 100px 30px 0;}
-
-  /* #cookiebanner {width: calc(100% - 40px); left: 20px;}
-  #cookiebanner.visible {bottom: 30px;} */
 }
 
 
@@ -592,6 +590,7 @@ nav {
   figure img {width: 150%;}
   .manuinfo {width: 100%;}
   .manuinfo a {margin-left: 20px;}
+  .proteaser {width: 300px;}
   .vlogocont {
     display: flex;
     flex-direction: column;
@@ -606,4 +605,6 @@ nav {
   .accordion-header {padding: 10px 20px;}
   /* foooter */
   footer {margin: 100px 20px 0;}
+  #cookiebanner {width: calc(100% - 40px); left: 20px;}
+  #cookiebanner.visible {bottom: 30px;}
 }

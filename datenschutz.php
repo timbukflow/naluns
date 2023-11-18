@@ -3,31 +3,27 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 
     <meta charset="UTF-8">
-    <title>Astrologieratgeber | Datenschutz</title>
+    <title>Naluns | Datenschutz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Stefan Haas">
+    <meta name="author" content="Naluns - Daniel Hiederer">
     <meta name="robots" content="noindex">
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ebcf87">
-    <meta name="msapplication-TileColor" content="#041f41">
-    <meta name="theme-color" content="#041f41">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#88a07e">
+    <meta name="msapplication-TileColor" content="#88a07e">
+    <meta name="theme-color" content="#88a07e">
 
     <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
     <section class="maincontent subpage datenschutz">
         <h1>Datenschutzerklärung</h1>
         <p>
-            Mit dieser Datenschutzerklärung informieren wir, welche Personendaten wir im Zusammenhang mit unseren Aktivitäten und Tätigkeiten einschliesslich unserer <a href="https://astrologieratgeber.ch">www.astrologieratgeber.ch</a> Website bearbeiten. Wir informieren insbesondere, wofür, wie und wo wir welche Personendaten bearbeiten. Wir informieren ausserdem über die Rechte von Personen, deren Daten wir bearbeiten.
+            Mit dieser Datenschutzerklärung informieren wir, welche Personendaten wir im Zusammenhang mit unseren Aktivitäten und Tätigkeiten einschliesslich unserer <a href="https://naluns.ch">www.naluns.ch</a> Website bearbeiten. Wir informieren insbesondere, wofür, wie und wo wir welche Personendaten bearbeiten. Wir informieren ausserdem über die Rechte von Personen, deren Daten wir bearbeiten.
         </p>
         <p>
             Für einzelne oder zusätzliche Aktivitäten und Tätigkeiten können weitere Datenschutzerklärungen sowie sonstige rechtliche Dokumente wie Allgemeine Geschäftsbedingungen (AGB), Nutzungsbedingungen oder Teilnahmebedingungen gelten.
@@ -36,13 +32,13 @@
         <h3 class="gold">1. Kontaktadresse</h3>
         <p>Die Verantwortung für die Datenbearbeitung liegt bei: Wir weisen darauf hin, wenn es im Einzelfall andere Verantwortliche für die Bearbeitung von Personendaten gibt.</p>
         <p>
-            Astrologieratgeber<br>
-            Stefan Haas<br>
-            Ackerstrasse 56<br>
-            8610 Uster<br><br>
-            Telefon 044 442 02 23<br>
-            info@astrologieratgeber.ch<br>
-            <a href="https://astrologieratgeber.ch">www.astrologieratgeber.ch</a>
+            naluns<br>
+            Daniel Hiederer<br>
+            Falkensteinstrasse 1 <br>
+            9000 St.Gallen<br><br>
+            Telefon +41 71 242 66 53<br>
+            info@naluns.ch<br>
+            <a href="https://naluns.ch">www.naluns.ch</a>
         </p>
 
         <h3 class="gold">2. Begriffe und Rechtsgrundlagen</h3>
@@ -192,17 +188,13 @@
         <p>
             Wir können diese Datenschutzerklärung jederzeit anpassen und ergänzen. Wir werden über solche Anpassungen und Ergänzungen in geeigneter Form informieren, insbesondere durch Veröffentlichung der jeweils aktuellen Datenschutzerklärung auf unserer Website.
             <br><br>
-            Letzte Aktualisierung: 31.08.2023
-        </p>
-        
-
-        
+            Letzte Aktualisierung: 01.11.2023
+        </p>   
     </section>
       
     
     <?php require_once 'nav.php'; ?>
     <?php require_once 'footer.php'; ?>
-    <div class="starry-sky"></div>
     <?php require_once 'script.php'; ?>
     <?php require_once 'googleanalytics.php'; ?>
 </body>
