@@ -34,18 +34,24 @@ $(".navcont li a").mouseleave(function() {
 
 /////////// Accordion ///////////// 
 $(".accordion-item").click(function() {
-  if (!$(this).hasClass("open")) {
-    $(".accordion-item").removeClass("open");
-    $(this).addClass("open");
-    $(".accordion-content").slideUp();
-    $(this).find(".accordion-content").slideDown();
+  var $clickacc = $(this);
 
-    // Scrollen zum geöffneten Accordion
-    var scrollTo = $(this).offset().top - 20; 
-    $("html, body").animate({ scrollTop: scrollTo }, 500);
+  if (!$clickacc.hasClass("open")) {
+    var $activacc = $(".accordion-item.open");
+
+    if ($activacc.length > 0) {
+      $activacc.removeClass("open");
+      $activacc.find(".accordion-content").slideUp(500, function() {
+        var scrollTo = $clickacc.offset().top - 20;
+        $("html, body").animate({ scrollTop: scrollTo }, 500);
+      });
+    }
+
+    $clickacc.addClass("open");
+    $clickacc.find(".accordion-content").slideDown();
   } else {
-    $(this).removeClass("open");
-    $(this).find(".accordion-content").slideUp();
+    $clickacc.removeClass("open");
+    $clickacc.find(".accordion-content").slideUp();
   }
 });
 
