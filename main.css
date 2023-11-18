@@ -447,14 +447,14 @@ nav {
   left: 40px;
   border-radius: 5px;
   width: 350px;
-  background-color:var(--yellowlight);
+  background-color: white;
   padding: 15px;
   z-index: 9999;
   transition: bottom 0.5s cubic-bezier(0.2, 0.8, 0.3, 2);
 }
 
 #cookiebanner p {
-  color: var(--skydark);
+  color: var(--nalunsgreen);
   margin: 0;
 }
 
@@ -475,8 +475,8 @@ nav {
 
 #declineBtn {
   padding: 10px 20px;
-  border: 1px solid var(--skydark); 
-  color: var(--skydark);
+  border: 1px solid var(--nalunsgreen); 
+  color: var(--nalunsgreen);
   background: none;
   opacity: 0.5;
 }
@@ -484,7 +484,7 @@ nav {
 #acceptBtn {
   border: none;
   padding: 10px 40px;
-  background: var(--skydark);
+  background: var(--nalunsgreen);
   color: white;
   margin-right: 5px;
 }
