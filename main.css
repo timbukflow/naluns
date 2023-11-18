@@ -63,7 +63,7 @@ h1.big {
 
 
 li {list-style: none;}
-li a {font-size: var(--font-text-big);}
+li a {font-size: var(--font-title);}
 
 a {cursor: pointer;}
 
@@ -548,7 +548,7 @@ nav {
 
   /* accordion */
   .accordion-header {margin-left: 0;}
-  .accordion-flex {flex-direction: column; gap: 20px;}
+  .accordion-flex {flex-direction: column; gap: 10px;}
   .accordion-flex img {padding-right: 0px;}
 
   /* product intro */
