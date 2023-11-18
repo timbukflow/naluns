@@ -15,7 +15,7 @@
     <header>
         <a href="index">naluns - traditionelle Schweizer Küche neu interpretiert.</a>
         <div class="title">
-            <h1 class="big">manufaktur</h1>
+            <h1 class="big">manu&shy;faktur</h1>
         </div>
         <figure class="fadein">
             <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-vizokel-spaetzli-home">
