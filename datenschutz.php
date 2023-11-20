@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="main.css" />
 </head>
 
-<body>
+<body class="green">
     <section class="maincontent subpage datenschutz">
         <h1>Datenschutzerklärung</h1>
         <p>

@@ -18,7 +18,7 @@
             <h1 class="big">pizokel</h1>
         </div>
         <figure class="fadein">
-            <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-vizokel-spaetzli-home">
+            <img src="img/naluns-pizokel-engadiner-teigspezialitaet-bio-kraeutern.webp" alt="naluns-pizokel-engadiner-teigspezialitaet-bio-kraeutern">
             <figcaption>
                 Pizokel: Engadiner Teigspezialität mit Bio-Kräutern neu interpretiert.
             </figcaption>  
@@ -42,10 +42,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-nature-01.webp" alt="naluns-pizokel-nature-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                            <img src="img/naluns-pizokel-nature-02.webp" alt="naluns-pizokel-nature-02">
                             </div>
                             <div>
                                 <p>
@@ -63,10 +63,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-rosmarin-01.webp" alt="naluns-pizokel-rosmarin-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-rosmarin-02.webp" alt="naluns-pizokel-rosmarin-02">
                             </div>
                             <div>
                                 <p>
