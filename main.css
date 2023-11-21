@@ -569,8 +569,8 @@ nav {
 @media (max-width: 680px) {
   :root {
     --font-big: 80px;
-    --font-title: 40px;
-    --font-text-big: 24px;
+    --font-title: 36px;
+    --font-text-big: 21px;
     --font-text-small: 16px;
   }
   nav {top: 20px;right: 10px;}
