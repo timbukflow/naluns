@@ -30,7 +30,7 @@
         <article>
             <div class="content fadein">
                 <h1 class="font-text-big">
-                    Bei naluns geht es um Genuss, Tradition und die Freude beim Entdecken neuer Geschmacksrichtungen. Hier wird jede Mahlzeit zu einem kulinarischen Erlebnis, bei dem die Verbindung zur Natur und zu regionalen Traditionen im Mittelpunkt steht. Unsere Pizokel, Vizokel und Spätzli werden in der hauseigenen Manufaktur von Hand hergestellt, frei von Zusätzen mit lokalen Zutaten. Entdecken Sie mit uns neue Geschmacksrichtungen und erleben Sie den Genuss von naluns.
+                    Bei naluns geht es um Genuss, Tradition und die Freude beim Entdecken neuer Geschmacks&shy;richtungen. Hier wird jede Mahlzeit zu einem kulinarischen Erlebnis, bei dem die Verbindung zur Natur und zu regionalen Traditionen im Mittelpunkt steht. Unsere Pizokel, Vizokel und Spätzli werden in der hauseigenen Manufaktur von Hand hergestellt, frei von Zusätzen mit lokalen Zutaten. Entdecken Sie mit uns neue Geschmacks&shy;richtungen und erleben Sie den Genuss von naluns.
                 </h1>
             </div>
         </article>
