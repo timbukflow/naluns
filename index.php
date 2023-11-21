@@ -96,7 +96,7 @@
             <div class="content fadein">
                 <h1 class="font-title">Vertrieb</h1>
                 <p class="font-text-big">
-                    Führen Sie ein Restaurant oder einen Gastronomiebetrieb? Möchten Sie Ihr Angebot durch die Produkte von naluns erweitern? Unser Sortiment ist bei führenden Dienstleistern für die Gastronomie sowie  Lebensmittelgrosshandel erhältlich.
+                    Führen Sie ein Restaurant oder einen Gastronomiebetrieb? Möchten Sie Ihr Angebot durch die Produkte von naluns erweitern? Unser Sortiment ist bei führenden Dienstleistern für die Gastronomie sowie  Lebensmittel&shy;grosshandel erhältlich.
                 </p>
             </div>
             <div class="vlogocont fadein">
