@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 
     <meta charset="UTF-8">
-    <title>Naluns | Daniel Hiederer </title>
+    <title>naluns | Daniel Hiederer </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Vom Jugendherbergsleiter zum Schöpfer frischer regionaler Köstlichkeiten. Erfahren Sie, wie Daniel Hiederer bei naluns traditionelle Rezepte mit einer überraschenden Note neu interpretiert.">
     <meta name="keywords" content="Jugendherberge, Food-Manufaktur, Daniel Hiederer, Gelernter Koch, Kreatives Handwerk, Genuss, Restaurants, Diplomierter Betriebsleiter, Scuol, Frische Lebensmittel, Vollwertige Lebensmittel, Traditionelle Rezepte, Regional, Handgemacht, Ehrlich, Bodenständig">

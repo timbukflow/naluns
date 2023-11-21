@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 
     <meta charset="UTF-8">
-    <title>Naluns | Manufaktur</title>
+    <title>naluns | Manufaktur</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Manufaktur - Pizokel, Vizokel und Spätzli werden mit regionalen Zutaten in der hauseigenen Manufaktur hergestellt.">
     <meta name="keywords" content="Naluns, Pizokel, Vizokel, Spätzli, Manufaktur, Vegane Lebensmittel, Traditinelle Schweizer Küche, Engadiner Rezepte, Handgemachte Lebensmittel, Regionale Zutaten, Innovative Ernährung">

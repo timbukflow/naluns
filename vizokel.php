@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 
     <meta charset="UTF-8">
-    <title>Naluns | Vizokel</title>
+    <title>naluns | Vizokel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Vizokel - Vegane Alternative zu den traditionellen Pizokeln.">
     <meta name="keywords" content="Naluns, Vizokel, Vegane Lebensmittel, Traditinelle Schweizer Küche, Engadiner Rezepte, Handgemachte Lebensmittel, Regionale Zutaten, Innovative Ernährung">

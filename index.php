@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 
     <meta charset="UTF-8">
-    <title>Naluns | Traditionelle Schweizer Gerichte neu interpretiert</title>
+    <title>naluns | Traditionelle Schweizer Gerichte neu interpretiert</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Naluns - Traditionelle Schweizer Gerichte neu interpretiert. Handgemachte Pizokel, Vizokel und Spätzli für den natürlichen Geschmack des Engadins.">
     <meta name="keywords" content="Naluns, Pizokel, Vizokel, Spätzli, Engadiner Teigspezialität, Bio-Kräuter, Traditinelle Schweizer Küche, Engadiner Rezepte, Handgemachte Lebensmittel, Regionale Zutaten, Innovative Ernährung, Vegan, ">
@@ -47,7 +47,7 @@
                             <h2 class="font-title">Pizokel</h2>
                         </a>
                     </div>
-                    <p>Das Traditionsprodukt aus dem Engadin</p>
+                    <p>Das Traditionsprodukt aus dem Engadin.</p>
                 </div>
                 <div class="procontainer fadein">
                     <div class="proimg">
@@ -56,7 +56,7 @@
                             <h2 class="font-title">Vizokel</h2>
                         </a>
                     </div>
-                    <p>Die rein pflanzliche Alternative unserer Pizokel</p>
+                    <p>Die rein pflanzliche Alternative unserer Pizokel.</p>
                 </div>
                 <div class="procontainer fadein">
                     <div class="proimg">
@@ -65,7 +65,7 @@
                             <h2 class="font-title">Spätzli</h2>
                         </a>
                     </div>
-                    <p>Der Klassiker: Schmeckt als Beilage und als Hauptspeise</p>
+                    <p>Der Klassiker: Schmeckt als Beilage und als Hauptspeise.</p>
                 </div>
             </div>
         </article>

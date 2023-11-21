@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 
     <meta charset="UTF-8">
-    <title>Naluns | Kontakt</title>
+    <title>naluns | Kontakt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sie wollen mehr über traditionelle Schweizer Küche erfahren, haben Fragen oder Anregungen? Sie möchten naluns Produkte direkt über die Manufaktur beziehen? Dann kontaktieren Sie uns.">
     <link rel="canonical" href="https://naluns.ch/kontakt" />

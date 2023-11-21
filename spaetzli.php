@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 
     <meta charset="UTF-8">
-    <title>Naluns | Spätzli</title>
+    <title>naluns | Spätzli</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Spätzli - Klassische Teigspeise mit Bio-Kräutern neu interpretiert.">
     <meta name="keywords" content="Naluns, Spätzli, Traditinelle Schweizer Küche, Engadiner Rezepte, Handgemachte Lebensmittel, Regionale Zutaten, Innovative Ernährung">
