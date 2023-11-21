@@ -34,7 +34,7 @@
                     Hirschenplatz 1<br> 
                     9220 Bischofszell<br>
                 </p>
-                <a class="font-text-big fadein" href="tel:++41712426653">Telefon +41 71 242 66 53</a> 
+                <a class="font-text-big fadein" href="tel:+41786090018">Telefon +41 78 609 00 18</a> 
                 <a class="font-text-big fadein" href="mailto:info@naluns.ch" target="_top">E-Mail: info@naluns.ch</a>
             </div>
         </article>        

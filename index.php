@@ -110,7 +110,7 @@
                 <p class="font-text-big"> 
                     Sie wollen mehr über traditionelle Schweizer Küche erfahren, haben Fragen oder Anregungen? Sie möchten naluns Produkte direkt über die Manufaktur beziehen? Dann kontaktieren Sie uns.
                 </p>
-                <a class="font-text-big" href="tel:++41712426653">Telefon +41 71 242 66 53</a> 
+                <a class="font-text-big" href="tel:+41786090018">Telefon +41 78 609 00 18</a> 
                 <a class="font-text-big" href="mailto:info@naluns.ch" target="_top">E-Mail: info@naluns.ch</a>
             </div>
         </article>
