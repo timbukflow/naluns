@@ -560,7 +560,8 @@ nav {
   /* manufaktur intro */
   .manucontainer {overflow: hidden; align-items: center;}
   .manucontainer img {width: 200%;}
-  .manuimgthree {flex-direction: column;}
+  .manuimgcont {margin: 60px 0;}
+  .manuimgthree {flex-direction: column;gap: 10px;}
   /* footer */
   footer{margin: 100px 30px 0;}
 }
