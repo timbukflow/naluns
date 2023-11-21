@@ -18,7 +18,7 @@
             <h1 class="big">manu&shy;faktur</h1>
         </div>
         <figure class="fadein">
-            <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-vizokel-spaetzli-home">
+            <img src="img/naluns-manufaktur-pizokel-vizokel-spaetzli.webp" alt="naluns-manufaktur-pizokel-vizokel-spaetzli">
             <figcaption>
             Manufaktur: Pizokel, Vizokel und Spätzli werden mit regionalen Zutaten in der hauseigenen Manufaktur hergestellt.  
             </figcaption>  
@@ -31,6 +31,19 @@
                 <h1 class="font-text-big">
                 Bei naluns werden die Produkte mit großer Sorgfalt und nach alten, überlieferten Rezepten hergestellt. Unser Teig wird geschmeidig geschlagen, damit die Pizokel, Vizokel und Spätzli besonders luftig werden. Nachdem der Teig ausreichend geruht hat, wird er von Hand weiterverarbeitet und die Produkte gekocht. Etwa 200 Kilogramm fertigt naluns nach diesem Prinzip pro Tag in der hauseigenen Manufaktur.
                 </h1>
+            </div>
+        </article>
+        <article class="manuimgcont">
+            <div class="manuimgthree">
+                <div class="fadein">
+                    <img src="img/naluns-manufaktur-01.webp" alt="naluns-manufaktur-01">
+                </div>
+                <div class="fadein">
+                    <img src="img/naluns-manufaktur-02.webp" alt="naluns-manufaktur-02">
+                </div>
+                <div class="fadein">
+                    <img src="img/naluns-manufaktur-03.webp" alt="naluns-manufaktur-03">
+                </div>
             </div>
         </article>
         <article>               
@@ -59,22 +72,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </article>
-        <article class="manuimgcont">
-            <div class="manuimgthree">
-                <div class="fadein">
-                    <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
-                </div>
-                <div class="fadein">
-                    <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
-                </div>
-                <div class="fadein">
-                    <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
-                </div>
-            </div>
-            <div class="manuimgone fadein">
-                <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
             </div>
         </article>
         <article>

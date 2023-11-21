@@ -81,7 +81,7 @@
 
         <article>
             <div class="manucontainer fadein">
-                <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-spaetzli-traditionsprodukt-engadin-home">
+                <img src="img/naluns-manufaktur-pizokel-vizokel-spaetzli-regionalen-zutaten-hauseigenen-manufaktur-home.webp" alt="naluns-manufaktur-pizokel-vizokel-spaetzli-regionalen-zutaten-hauseigenen-manufaktur-home">
                 <div class="manuinfo">
                     <h1 class="font-title">Manufaktur</h1>
                     <p class="font-text-big">

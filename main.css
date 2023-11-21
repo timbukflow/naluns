@@ -26,7 +26,7 @@ body.fixed {
 /*----------------------------------
   Font
 -----------------------------------*/
-h1, h2, h3, p, a, li, figcaption, button, .accordion {
+h1, h2, h3, h4, p, a, li, figcaption, button, .accordion {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-weight: 600;
   font-size: var(--font-text-small);
@@ -40,8 +40,8 @@ h1, h2, h3, p, a, li, figcaption, button, .accordion {
   -ms-hyphens: auto; 
 }
 
-h1, h2, p, figcaption {margin: 0 30px;}
-p {padding: 20px 0;}
+h1, h2, h3, p, figcaption {margin: 0 30px;}
+p, h3 {padding: 20px 0;}
 
 h1.big {
   font-size: var(--font-big);
@@ -308,14 +308,13 @@ nav {
   opacity: 1;
 }
 
-#index-image {background-image: url('img/index-image.jpg');}
-#pizokel-image {background-image: url('img/pizokel-image.jpg');}
-#vizokel-image {background-image: url('img/naluns-image.jpg');}
-#spaetzli-image {background-image: url('img/pizokel-image.jpg');}
-#manufaktur-image {background-image: url('img/naluns-image.jpg');}
-#daniel-hiederer-image {background-image: url('img/naluns-image.jpg');}
-#kontakt-image {background-image: url('img/pizokel-image.jpg');}
-
+#index-image {background-image: url('img/naluns-nav.webp');}
+#pizokel-image {background-image: url('img/pizokel-nav.webp');}
+#vizokel-image {background-image: url('img/vizokel-nav.webp');}
+#spaetzli-image {background-image: url('img/spaetzli-nav.webp');}
+#manufaktur-image {background-image: url('img/manufaktur-nav.webp');}
+#daniel-hiederer-image {background-image: url('img/dani-nav.webp');}
+#kontakt-image {background-image: url('img/kontakt-nav.webp');}
 
 
 /*----------------------------------
@@ -429,13 +428,17 @@ nav {
     Impressum Datenschutz
 -----------------------------------*/
 .datenschutz {
-  margin-bottom: 150px;
+  margin: 150px 0;
+}
+.datenschutz h1 {
+  font-size: var(--font-title);
 }
 .datenschutz h3 {
-  margin: 40px 0 0;
+  font-size: var(--font-text-big);
 }
 .datenschutz li {
   padding: 10px 0;
+  list-style: disc
 }
 /*----------------------------------
     Cookiebanner
@@ -557,6 +560,7 @@ nav {
   /* manufaktur intro */
   .manucontainer {overflow: hidden; align-items: center;}
   .manucontainer img {width: 200%;}
+  .manuimgthree {flex-direction: column;}
   /* footer */
   footer{margin: 100px 30px 0;}
 }

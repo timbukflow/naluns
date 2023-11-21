@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Naluns | Spätzli</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Spätzli: Klassische Teigspeise mit Bio-Kräutern neu interpretiert.">
+    <meta name="description" content="Spätzli - Klassische Teigspeise mit Bio-Kräutern neu interpretiert.">
     <meta name="keywords" content="Naluns, Spätzli, Traditinelle Schweizer Küche, Engadiner Rezepte, Handgemachte Lebensmittel, Regionale Zutaten, Innovative Ernährung">
     <link rel="canonical" href="https://naluns.ch/spaetzli" />
     <?php require_once 'head.php'; ?>
@@ -18,7 +18,7 @@
             <h1 class="big">spätzli</h1>
         </div>
         <figure class="fadein">
-            <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-vizokel-spaetzli-home">
+            <img src="img/naluns-spaetzli-klassische-teigspeise-bio-kraeutern.webp" alt="naluns-spaetzli-klassische-teigspeise-bio-kraeutern">
             <figcaption>
                 Spätzli: Klassische Teigspeise mit Bio-Kräutern neu interpretiert.  
             </figcaption>  
@@ -42,10 +42,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-spaetzli-nature-01.webp" alt="naluns-spaetzli-nature-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-spaetzli-nature-02.webp" alt="naluns-spaetzli-nature-02">
                             </div>
                             <div>
                                 <p>
@@ -63,10 +63,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-spaetzli-rosmarin-01.webp" alt="naluns-spaetzli-rosmarin-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-spaetzli-rosmarin-02.webp" alt="naluns-spaetzli-rosmarin-02">
                             </div>
                             <div>
                                 <p>
@@ -84,10 +84,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-spaetzli-heu-01.webp" alt="naluns-spaetzli-heu-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-spaetzli-heu-02.webp" alt="naluns-spaetzli-heu-02">
                             </div>
                             <div>
                                 <p>
@@ -105,10 +105,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-spaetzli-kapern-01.webp" alt="naluns-spaetzli-kapern-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-spaetzli-kapern-02.webp" alt="naluns-spaetzli-kapern-02">
                             </div>
                             <div>
                                 <p>

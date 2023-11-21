@@ -1,4 +1,4 @@
-<footer class="fadein">
+<footer>
     <div class="footer">
         <div class="footerlogo">
             <a href="index">

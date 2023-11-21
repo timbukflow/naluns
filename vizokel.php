@@ -18,7 +18,7 @@
             <h1 class="big">vizokel</h1>
         </div>
         <figure class="fadein">
-            <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-vizokel-spaetzli-home">
+            <img src="img/naluns-vizokel-vegane-alternative-traditionellen-pizokel.webp" alt="naluns-vizokel-vegane-alternative-traditionellen-pizokel">
             <figcaption>
                 Vizokel: Vegane Alternative der traditionellen Pizokel. 
             </figcaption>  
@@ -42,10 +42,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-vizokel-01.webp" alt="naluns-vizokel-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-vizokel-02.webp" alt="naluns-vizokel-02">
                             </div>
                             <div>
                                 <p>

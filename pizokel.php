@@ -84,10 +84,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-zitronenthymian-01.webp" alt="naluns-pizokel-zitronenthymian-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-zitronenthymian-02.webp" alt="naluns-pizokel-zitronenthymian-02">
                             </div>
                             <div>
                                 <p>
@@ -105,10 +105,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-heu-01.webp" alt="naluns-pizokel-heu-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-heu-02.webp" alt="naluns-pizokel-heu-02">
                             </div>
                             <div>
                                 <p>
@@ -126,10 +126,10 @@
                     <div class="accordion-content">
                         <div class="accordion-flex">
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-kapern-01.webp" alt="naluns-pizokel-kapern-01">
                             </div>
                             <div>
-                                <img src="img/naluns-handgemachte-pizokel-traditionsprodukt-engadin-home.webp" alt="naluns-handgemachte-pizokel-traditionsprodukt-engadin-home">
+                                <img src="img/naluns-pizokel-kapern-02.webp" alt="naluns-pizokel-kapern-02">
                             </div>
                             <div>
                                 <p>

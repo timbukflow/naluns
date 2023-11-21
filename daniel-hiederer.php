@@ -18,9 +18,9 @@
             <h1 class="big">daniel hiederer</h1>
         </div>
         <figure class="fadein">
-            <img src="img/naluns-handgemachte-pizokel-vizokel-spaetzli-home.webp" alt="naluns-handgemachte-pizokel-vizokel-spaetzli-home">
+            <img src="img/naluns-daniel hiederer.webp" alt="naluns-daniel hiederer">
             <figcaption>
-                Daniel Hiederer vereint bei naluns  kreatives Handwerk und Genuss.  
+                Daniel Hiederer vereint bei naluns kreatives Handwerk und Genuss.  
             </figcaption>  
         </figure>
     </header>
