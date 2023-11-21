@@ -74,7 +74,7 @@
             <div class="content fadein">
                 <h1 class="font-title">Motivation</h1>
                 <p class="font-text-big">
-                    Wir interpretieren traditionelle Schweizer Gerichte mit frischen und modernen Zutaten neu. Die sorgfältige Herstellung unserer Pizokel, Vizokel und Spätzli gewährleistet die erstklassige Qualität unserer Produkte und kreiert ein genussvolles sowie natürliches Geschmackserlebnis. Für alle, die einen Bezug zur guten Küche haben und sich für bewusste, natürliche Ernährung interessieren.
+                    Wir interpretieren traditionelle Schweizer Gerichte mit frischen und modernen Zutaten neu. Die sorgfältige Herstellung unserer Pizokel, Vizokel und Spätzli gewährleistet die erstklassige Qualität unserer Produkte und kreiert ein genussvolles sowie natürliches Geschmacks&shy;erlebnis. Für alle, die einen Bezug zur guten Küche haben und sich für bewusste, natürliche Ernährung interessieren.
                 </p>
             </div>
         </article>
@@ -96,7 +96,7 @@
             <div class="content fadein">
                 <h1 class="font-title">Vertrieb</h1>
                 <p class="font-text-big">
-                    Führen Sie ein Restaurant oder einen Gastronomiebetrieb? Möchten Sie Ihr Angebot durch die Produkte von naluns erweitern? Unser Sortiment ist bei führenden Dienstleistern für die Gastronomie sowie  Lebensmittel&shy;grosshandel erhältlich.
+                    Führen Sie ein Restaurant oder einen Gastronomie&shy;betrieb? Möchten Sie Ihr Angebot durch die Produkte von naluns erweitern? Unser Sortiment ist bei führenden Dienstleistern für die Gastronomie sowie  Lebensmittel&shy;grosshandel erhältlich.
                 </p>
             </div>
             <div class="vlogocont fadein">
