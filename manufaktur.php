@@ -29,7 +29,7 @@
         <article>
             <div class="content fadein">
                 <h1 class="font-text-big">
-                Bei naluns werden die Produkte mit großer Sorgfalt und nach alten, überlieferten Rezepten hergestellt. Unser Teig wird geschmeidig geschlagen, damit die Pizokel, Vizokel und Spätzli besonders luftig werden. Nachdem der Teig ausreichend geruht hat, wird er von Hand weiterverarbeitet und die Produkte gekocht. Etwa 200 Kilogramm fertigt naluns nach diesem Prinzip pro Tag in der hauseigenen Manufaktur.
+                Bei naluns werden die Produkte mit großer Sorgfalt und nach alten, überlieferten Rezepten hergestellt. Unser Teig wird geschmeidig geschlagen, damit die Pizokel, Vizokel und Spätzli besonders luftig werden. Nachdem der Teig ausreichend geruht hat, wird er von Hand weiterverarbeitet und die Produkte gekocht.
                 </h1>
             </div>
         </article>
