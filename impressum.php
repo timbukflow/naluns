@@ -34,7 +34,7 @@
         <h3>Copyright</h3>
         <p>Das Copyright für sämtliche Inhalte dieser Website liegt bei naluns AG<br></p>
 
-        <h3>Webdesign und Technische Umsetzung</h3>
+        <h3>Webdesign und technische Umsetzung</h3>
         <p>Schwizer Design GmbH<br>
         Gallusstrasse 43<br>
         CH-9000 St. Gallen<br>
