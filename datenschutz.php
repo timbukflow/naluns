@@ -146,7 +146,6 @@
         <p>
             Wir nutzen insbesondere: <br>
             <a href="https://policies.google.com/privacy?hl=de">Dienste von Google</a><br>
-            <a href="https://payrexx.com/de-ch/datenschutzerklaerung">Dienste von Payrexx AG </a><br>
         </p>
         <p>8.1 Digitale Infrastruktur</p>
         <p>

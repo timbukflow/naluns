@@ -34,11 +34,23 @@
         <h3>Copyright</h3>
         <p>Das Copyright für sämtliche Inhalte dieser Website liegt bei naluns AG<br></p>
 
-        <h3>Konzept und Technische Umsetzung</h3>
+        <h3>Webdesign und Technische Umsetzung</h3>
         <p>Schwizer Design GmbH<br>
         Gallusstrasse 43<br>
         CH-9000 St. Gallen<br>
-        <a href="https://schwizerdesign.ch">schwizerdesign.ch</a></p>
+        <a href="https://schwizerdesign.ch" target="_blank">schwizerdesign.ch</a></p>
+
+        <h3>Corporate Design</h3>
+        <p>Fabian Stacoff<br>
+        Bühlstrasse 21<br>
+        CH-8055 Zürich<br>
+        <a href="https://stacoff.ch/" target="_blank">stacoff.ch</a></p>
+
+        <h3>Fotografie</h3>
+        <p>Anna-Tina Eberhard<br>
+        Davidstrasse 42<br>
+        CH-9000 St. Gallen<br>
+        <a href="https://at-eberhard.ch/" target="_blank">at-eberhard.ch</a></p>
 
         <h3>Haftungshinweis</h3>
         <p>Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
