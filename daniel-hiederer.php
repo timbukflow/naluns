@@ -27,7 +27,7 @@
 
     <section>
         <article>
-            <div class="content ">
+            <div class="content">
                 <h1 class="font-text-big fadein">
                     Von der Jugendherberge zur Food-Manufaktur
                 </h1>
@@ -39,12 +39,25 @@
                     Daniel Hiederer führte über zehn Jahre die Jugendherberge in Scuol und hat dabei mit viel Herz und Engagement die individuellen Bedürfnisse der Gäste kennengelernt. Die Arbeit prägte seine Leidenschaft für frische und vollwertige Lebensmittel.
                     <br><br>
                     In seiner Manufaktur interpretiert Daniel Hiederer traditionelle Rezepte neu: frisch und regional, mit viel Herz handgemacht. Ehrlich und bodenständig, aber auch mit einer überraschenden Note.
-                </p>        
-                <p class="font-text-big fadein"> 
+                </p>
+            </div>
+        </article>
+
+        <article class="manuimgcont">
+            <div class="manuimgthree">
+                <div class="fadein">
+                    <img src="img/naluns-daniel hiederer-messer.webp" alt="naluns-daniel hiederer-messer">
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div class="content fadein">        
+                <p class="font-text-big"> 
                     Sie wollen mehr über traditionelle Schweizer Küche erfahren, haben Fragen oder Anregungen? Sie möchten naluns Produkte direkt über die Manufaktur beziehen? Dann kontaktieren Sie uns.
                 </p>
                 <a class="font-text-big" href="tel:+41786090018">Telefon +41 78 609 00 18</a> 
-                <a class="font-text-big fadein" href="mailto:info@naluns.ch" target="_top">E-Mail: info@naluns.ch</a>
+                <a class="font-text-big" href="mailto:info@naluns.ch" target="_top">E-Mail: info@naluns.ch</a>
             </div>
         </article>
     </section>

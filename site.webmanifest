@@ -1,6 +1,50 @@
 {
-    "name": "Naluns",
-    "short_name": "Naluns",
+    "name": "naluns | Traditionelle Schweizer Gerichte neu interpretiert",
+    "short_name": "naluns",
+    "description": "Naluns - Traditionelle Schweizer Gerichte neu interpretiert. Handgemachte Pizokel, Vizokel und Spätzli für den natürlichen Geschmack des Engadins.",
+    "categories": ["Pizokel", "Vizokel", "Spätzli", "Manufaktur", "Daniel Hiederer"],
+    "author": {
+        "name": "Daniel Hiederer",
+        "email": "info@naluns.ch",
+        "url": "https://naluns.ch/kontakt"
+    },
+    "shortcuts": [
+        {
+            "name": "Pizokel",
+            "short_name": "Pizokel",
+            "description": "Pizokel - Engadiner Teigspezialität mit Bio-Kräutern neu interpretiert.",
+            "url": "https://naluns.ch/pizokel",
+            "lang": "de-CH"
+        },
+        {
+            "name": "Vizokel",
+            "short_name": "Vizokel",
+            "description": "Vizokel - Vegane Alternative zu den traditionellen Pizokeln.",
+            "url": "https://naluns.ch/vizokel",
+            "lang": "de-CH"
+        },
+        {
+            "name": "Spätzli",
+            "short_name": "Spätzli",
+            "description": "Spätzli - Klassische Teigspeise mit Bio-Kräutern neu interpretiert.",
+            "url": "https://naluns.ch/spaetzli",
+            "lang": "de-CH"
+        },
+        {
+            "name": "Manufaktur",
+            "short_name": "Manufaktur",
+            "description": "Manufaktur - Pizokel, Vizokel und Spätzli werden mit regionalen Zutaten in der hauseigenen Manufaktur hergestellt.",
+            "url": "https://naluns.ch/manufaktur",
+            "lang": "de-CH"
+        },
+        {
+            "name": "Daniel Hiederer",
+            "short_name": "Daniel Hiederer",
+            "description": "Vom Jugendherbergsleiter zum Schöpfer frischer regionaler Köstlichkeiten. Erfahren Sie, wie Daniel Hiederer bei naluns traditionelle Rezepte mit einer überraschenden Note neu interpretiert.",
+            "url": "https://naluns.ch/daniel-hiederer",
+            "lang": "de-CH"
+        }
+    ],        
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +57,13 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#88a07e",
+    "start_url": "/",
+    "display": "browser",
     "background_color": "#88a07e",
-    "display": "standalone"
+    "theme_color": "#88a07e",
+    "orientation": "any",
+    "scope": "/",
+    "lang": "de-CH",
+    "dir": "ltr",
+    "version": "1.0"
 }
