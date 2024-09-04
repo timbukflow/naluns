@@ -3,9 +3,12 @@
   --nalunsclay: #CF9173;
   --nalunsyellow: #D2B569;
   --nalunsbraun: #B0A294;
+  --nalunsrosa: #db9cab;
+  --nalunsviolet: #9588af;
 
   --font-big: 120px;
   --font-title: 70px;
+  --font-nav: 50px;
   --font-text-big: 34px;
   --font-text-small: 21px;
 }
@@ -63,7 +66,7 @@ h1.big {
 
 
 li {list-style: none;}
-li a {font-size: var(--font-title);}
+li a {font-size: var(--font-nav);}
 
 a {cursor: pointer;}
 
@@ -98,6 +101,8 @@ section {
 .clay{ background-color: var(--nalunsclay);}
 .yellow{ background-color: var(--nalunsyellow);}
 .braun{ background-color: var(--nalunsbraun);}
+.rosa{ background-color: var(--nalunsrosa);}
+.violet{ background-color: var(--nalunsviolet);}
 
 .fadein { 
   transform: translateY(100px);
@@ -312,6 +317,8 @@ nav {
 #pizokel-image {background-image: url('img/pizokel-nav.webp');}
 #vizokel-image {background-image: url('img/vizokel-nav.webp');}
 #spaetzli-image {background-image: url('img/spaetzli-nav.webp');}
+#sudveloute-image {background-image: url('img/sudveloute-nav.webp');}
+#ontour-image {background-image: url('img/ontour-nav.webp');}
 #manufaktur-image {background-image: url('img/manufaktur-nav.webp');}
 #daniel-hiederer-image {background-image: url('img/dani-nav.webp');}
 #kontakt-image {background-image: url('img/kontakt-nav.webp');}
@@ -509,6 +516,7 @@ nav {
   :root {
     --font-big: 100px;
     --font-title: 50px;
+    --font-nav: 40px;
     --font-text-big: 26px;
     --font-text-small: 19px;
   }
@@ -571,6 +579,7 @@ nav {
   :root {
     --font-big: 80px;
     --font-title: 36px;
+    --font-nav: 36px;
     --font-text-big: 21px;
     --font-text-small: 16px;
   }

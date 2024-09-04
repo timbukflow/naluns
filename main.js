@@ -16,6 +16,10 @@ $(".navcont li a").mouseenter(function() {
     backgroundColor = "#CF9173";
   } else if (targetLink === "spaetzli") {
     backgroundColor = "#D2B569";
+  } else if (targetLink === "sudveloute") {
+    backgroundColor = "#9588af";
+  } else if (targetLink === "ontour") {
+    backgroundColor = "#db9cab";
   } else if (targetLink === "manufaktur") {
     backgroundColor = "#B0A294";
   } else if (targetLink === "daniel-hiederer") {

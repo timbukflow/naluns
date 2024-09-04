@@ -6,37 +6,47 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://naluns.ch/</loc>
-  <lastmod>2023-11-21T09:58:59+00:00</lastmod>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://naluns.ch/pizokel</loc>
-  <lastmod>2023-11-21T09:58:59+00:00</lastmod>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://naluns.ch/vizokel</loc>
-  <lastmod>2023-11-21T09:58:59+00:00</lastmod>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://naluns.ch/spaetzli</loc>
-  <lastmod>2023-11-21T09:58:59+00:00</lastmod>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://naluns.ch/manufaktur</loc>
-  <lastmod>2023-11-21T09:58:59+00:00</lastmod>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://naluns.ch/daniel-hiederer</loc>
-  <lastmod>2023-11-21T09:58:59+00:00</lastmod>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://naluns.ch/kontakt</loc>
-  <lastmod>2023-11-21T09:58:59+00:00</lastmod>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://naluns.ch/sudveloute</loc>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://naluns.ch/ontour</loc>
+  <lastmod>2024-09-21T09:58:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 

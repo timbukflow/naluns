@@ -15,6 +15,8 @@
             <li><a href="pizokel">Pizokel</a></li>
             <li><a href="vizokel">Vizokel</a></li>
             <li><a href="spaetzli">Spätzli</a></li>
+            <li><a href="sudveloute">Sud & Veloutè</a></li>
+            <li><a href="ontour">Ontour</a></li>
             <li><a href="manufaktur">Manufaktur</a></li>
             <li><a href="daniel-hiederer">Daniel Hiederer</a></li>
             <li><a href="kontakt">Kontakt</a></li>
@@ -24,6 +26,8 @@
             <div class="image" id="pizokel-image"></div>
             <div class="image" id="vizokel-image"></div>
             <div class="image" id="spaetzli-image"></div>
+            <div class="image" id="sudveloute-image"></div>
+            <div class="image" id="ontour-image"></div>
             <div class="image" id="manufaktur-image"></div>
             <div class="image" id="daniel-hiederer-image"></div>
             <div class="image" id="kontakt-image"></div>
