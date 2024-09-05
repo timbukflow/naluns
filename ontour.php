@@ -20,7 +20,7 @@
         <figure class="fadein">
             <img src="img/naluns-ontour.webp" alt="naluns-ontour">
             <figcaption>
-            Engadiner Pizokel On Tour – Wir bringen kulinarische Erlebnisse direkt zu dir.  
+            Engadiner Pizokel Ontour – Wir bringen kulinarische Erlebnisse direkt zu dir.  
             </figcaption>  
         </figure>
     </header>
