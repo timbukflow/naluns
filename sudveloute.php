@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
 
     <meta charset="UTF-8">
-    <title>naluns | Sud & Veloutè</title>
+    <title>naluns | Sud & Velouté</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Entdecken Sie die kulinarische Vielfalt mit Naluns: Gewürz-Sud und samtige Velouté verleihen Pizokel, Vizokel und Spätzli eine neue Dimension. Erleben Sie Aromen in Perfektion!" />
     <meta name="keywords" content="Naluns, Sud, Velouté, Pizokel, Vizokel, Spätzli, Gewürz-Sud, französische Küche, klassische Saucen, Muttersaucen, traditionelle Schweizer Küche, kulinarische Vielfalt, Gourmet, Aromen, feine Küche, handgemachte Saucen" />
@@ -15,12 +15,12 @@
     <header>
         <a href="index">naluns - traditionelle Schweizer Küche neu interpretiert.</a>
         <div class="title">
-            <h1 class="big">Sud & Veloutè</h1>
+            <h1 class="big">Sud & Velouté</h1>
         </div>
         <figure class="fadein">
             <img src="img/naluns-sudveloute.webp" alt="naluns-sudveloute">
             <figcaption>
-            Mit der samtigen Velouté heben Sie unsere Pizokel auf das nächste Level und verleihen ihnen eine Extraportion Finesse.  
+                Mit der samtigen Velouté heben Sie unsere Pizokel auf das nächste Level und verleihen ihnen eine Extraportion Finesse.  
             </figcaption>  
         </figure>
     </header>
@@ -47,7 +47,7 @@
                             </div>
                             <div>
                                 <p>
-                                    Ein Gewürz-Sud ist eine aromatische Flüssigkeit, die durch das Köcheln von Gewürzen, Kräutern und anderen Zutaten entsteht. Er intensiviert die Aromen und wird oft als Basis für Suppen, Saucen oder zum Garen verwendet. Die darin enthaltenen Gewürze können nicht nur den Geschmack verbessern, sondern auch gesundheitliche Vorteile bieten.
+                                    Ein Gewürz-Sud ist eine aromatische Flüssigkeit, die durch das Köcheln von Gewürzen und Kräutern entsteht. Er intensiviert die Aromen und wird oft als Basis für Suppen, Saucen oder zum Garen verwendet. Die darin enthaltenen Gewürze können nicht nur den Geschmack verbessern, sondern auch gesundheitliche Vorteile bieten.
                                 </p>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                             </div>
                             <div>
                                 <p>
-                                    Die Velouté ist eine der klassischen Grundsaucen der französischen Küche. Sie wird aus einer hellen Brühe, häufig aus Gemüse oder Geflügel, und einer Mehlschwitze hergestellt. Diese elegante, samtige Sauce ist vielseitig einsetzbar und bildet die Basis für viele weitere Saucen, was sie zu einem Eckpfeiler der französischen Kochkunst macht.
+                                    Die Velouté ist eine der klassischen Grundsaucen der französischen Küche. Sie wird aus einer hellen Gemüsebrühe und Mehlschwitze hergestellt. Diese elegante, samtige Sauce ist vielseitig einsetzbar und bildet die Basis für viele weitere Saucen.
                                 </p>
                             </div>
                         </div>

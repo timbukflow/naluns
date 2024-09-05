@@ -20,7 +20,7 @@
         <figure class="fadein">
             <img src="img/naluns-ontour.webp" alt="naluns-ontour">
             <figcaption>
-            Engadiner Pizokel Ontour – Wir bringen kulinarische Erlebnisse direkt zu dir.  
+            Engadiner Pizokel Ontour – Wir bringen kulinarische Erlebnisse direkt zu Ihnen.  
             </figcaption>  
         </figure>
     </header>
@@ -29,7 +29,7 @@
         <article>
             <div class="content fadein">
                 <h1 class="font-text-big">
-                Naluns Ontour - Es gibt immer einen guten Grund zu feiern! Ob für Unternehmen, Organisationen oder private Anlässe – wir bringen das kulinarische Highlight direkt zu dir. Ob Firmenessen im Wald, Feier am See oder Geburtstag in den Bergen: Mit unserem Food-Truck sind wir überall mobil und haben unsere eigene Küche stets dabei.
+                Naluns Ontour - Es gibt immer einen guten Grund zu feiern! Ob für Unternehmen, Organisationen oder private Anlässe – wir bringen das kulinarische Highlight direkt zu dir. Ob Firmenessen im Wald, Feier am See oder Geburtstag in den Bergen: Mit unserem Food-Truck sind wir überall mobil und haben unsere eigene Küche stets dabei. Sie geniessen.
                 </h1>
             </div>
         </article>
