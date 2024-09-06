@@ -15,7 +15,7 @@
             <li><a href="pizokel">Pizokel</a></li>
             <li><a href="vizokel">Vizokel</a></li>
             <li><a href="spaetzli">Spätzli</a></li>
-            <li><a href="sudveloute">Sud & Veloutè</a></li>
+            <li><a href="sudveloute">Sud & Velouté</a></li>
             <li><a href="ontour">Ontour</a></li>
             <li><a href="manufaktur">Manufaktur</a></li>
             <li><a href="daniel-hiederer">Daniel Hiederer</a></li>
