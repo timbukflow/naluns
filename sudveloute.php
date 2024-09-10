@@ -29,7 +29,7 @@
         <article>
             <div class="content fadein">
                 <h1 class="font-text-big">
-                Der Sud und die Velouté von Naluns sind unverzichtbare Elemente in der Zubereitung von Pizokel, Vizokel oder Spätzli. Der Gewürz-Sud verleiht den Gerichten Tiefe und intensives Aroma, während die klassische Velouté als Basis zahlreicher Saucen aus der französischen Küche dient. Beide Techniken bereichern die Aromenvielfalt und bieten kreative Möglichkeiten für feine, geschmackvolle Kreationen.
+                Der Sud und die Velouté von naluns sind unverzichtbare Elemente in der Zubereitung von Pizokel, Vizokel oder Spätzli. Der Gewürz-Sud verleiht den Gerichten Tiefe und intensives Aroma, während die klassische Velouté als Basis zahlreicher Saucen aus der französischen Küche dient. Beide Techniken bereichern die Aromenvielfalt und bieten kreative Möglichkeiten für feine, geschmackvolle Kreationen.
                 </h1>
             </div>
         </article>
@@ -42,9 +42,9 @@
                             <div>
                                 <img src="img/naluns-sud-01.webp" alt="naluns-sud">
                             </div>
-                            <div>
+                            <!-- <div>
                                 <img src="img/naluns-sud-02.webp" alt="naluns-sud">
-                            </div>
+                            </div> -->
                             <div>
                                 <p>
                                     Ein Gewürz-Sud ist eine aromatische Flüssigkeit, die durch das Köcheln von Gewürzen und Kräutern entsteht. Er intensiviert die Aromen und wird oft als Basis für Suppen, Saucen oder zum Garen verwendet. Die darin enthaltenen Gewürze können nicht nur den Geschmack verbessern, sondern auch gesundheitliche Vorteile bieten.
@@ -57,9 +57,9 @@
                     <div class="accordion-header">Velouté</div>
                     <div class="accordion-content">
                         <div class="accordion-flex">
-                            <div>
+                            <!-- <div>
                                 <img src="img/naluns-veloute-01.webp" alt="naluns-veloute">
-                            </div>
+                            </div> -->
                             <div>
                                 <img src="img/naluns-veloute-02.webp" alt="naluns-veloute">
                             </div>

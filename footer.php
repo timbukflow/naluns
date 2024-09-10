@@ -12,7 +12,7 @@
             </div> 
             <div>   
                 <a href="spaetzli">Spätzli</a>
-                <a href="sudveloute">Sud & Veloutè</a>
+                <a href="sudveloute">Sud & Velouté</a>
             </div>
             <div>   
                 <a href="ontour">Ontour</a>

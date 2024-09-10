@@ -29,7 +29,7 @@
         <article>
             <div class="content fadein">
                 <h1 class="font-text-big">
-                Bei Naluns werden die Produkte mit großer Sorgfalt und nach alten, überlieferten Rezepten in unserer Manufaktur im schönen Bischofszell hergestellt. Unser Teig wird geschmeidig geschlagen, damit die Pizokel, Vizokel und Spätzli besonders luftig werden. Nachdem der Teig ausreichend geruht hat, wird er von Hand weiterverarbeitet und die Produkte gekocht.
+                Bei naluns werden die Produkte mit großer Sorgfalt und nach alten, überlieferten Rezepten in unserer Manufaktur im schönen Bischofszell hergestellt. Unser Teig wird geschmeidig geschlagen, damit die Pizokel, Vizokel und Spätzli besonders luftig werden. Nachdem der Teig ausreichend geruht hat, wird er von Hand weiterverarbeitet und die Produkte gekocht.
                 </h1>
             </div>
         </article>

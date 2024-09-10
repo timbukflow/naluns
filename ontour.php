@@ -29,7 +29,7 @@
         <article>
             <div class="content fadein">
                 <h1 class="font-text-big">
-                Naluns Ontour - Es gibt immer einen guten Grund zu feiern! Ob für Unternehmen, Organisationen oder private Anlässe – wir bringen das kulinarische Highlight direkt zu Ihnen. Ob Firmenessen im Wald, Feier am See oder Geburtstag in den Bergen: Mit unserem Food-Truck sind wir überall mobil und haben unsere eigene Küche stets dabei. Sie geniessen.
+                naluns Ontour - Es gibt immer einen guten Grund zu feiern! Ob für Unternehmen, Organisationen oder private Anlässe – wir bringen das kulinarische Highlight direkt zu Ihnen. Ob Firmenessen im Wald, Feier am See oder Geburtstag in den Bergen: Mit unserem Food-Truck sind wir überall mobil und haben unsere eigene Küche stets dabei. Sie geniessen.
                 </h1>
             </div>
         </article>
@@ -49,7 +49,7 @@
         <article>
             <div class="content fadein">
                 <p class="font-text-big"> 
-                    Bereit, Naluns Ontour zu erleben? Fragen zur Planung oder zu den Möglichkeiten? Melden Sie sich bei uns – wir machen Ihr Event unvergesslich!
+                    Bereit, naluns Ontour zu erleben? Fragen zur Planung oder zu den Möglichkeiten? Melden Sie sich bei uns – wir machen Ihr Event unvergesslich!
                 </p>
                 <a class="font-text-big" href="tel:+41786090018">Telefon +41 78 609 00 18</a> 
                 <a class="font-text-big" href="mailto:info@naluns.ch" target="_top">E-Mail: info@naluns.ch</a>
