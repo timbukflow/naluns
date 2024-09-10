@@ -49,7 +49,7 @@
         <article>
             <div class="content fadein">
                 <p class="font-text-big"> 
-                    Bereit, naluns Ontour zu erleben? Fragen zur Planung oder zu den Möglichkeiten? Melden Sie sich bei uns – wir machen Ihr Event unvergesslich!
+                    Bereit, naluns Ontour zu erleben? Fragen zur Planung oder zu den Möglichkeiten? Melden Sie sich bei uns – wir machen Ihren Event unvergesslich!
                 </p>
                 <a class="font-text-big" href="tel:+41786090018">Telefon +41 78 609 00 18</a> 
                 <a class="font-text-big" href="mailto:info@naluns.ch" target="_top">E-Mail: info@naluns.ch</a>
