@@ -42,9 +42,9 @@
                             <div>
                                 <img src="img/naluns-sud-01.webp" alt="naluns-sud">
                             </div>
-                            <!-- <div>
+                            <div>
                                 <img src="img/naluns-sud-02.webp" alt="naluns-sud">
-                            </div> -->
+                            </div>
                             <div>
                                 <p>
                                     Ein Gewürz-Sud ist eine aromatische Flüssigkeit, die durch das Köcheln von Gewürzen und Kräutern entsteht. Er intensiviert die Aromen und wird oft als Basis für Suppen, Saucen oder zum Garen verwendet. Die darin enthaltenen Gewürze können nicht nur den Geschmack verbessern, sondern auch gesundheitliche Vorteile bieten.
