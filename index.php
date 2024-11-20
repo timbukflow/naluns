@@ -100,7 +100,7 @@
                 </p>
             </div>
             <div class="vlogocont fadein">
-                <img src="img/naluns-marinello-logo.svg" alt="naluns-marinello-logo">
+                <!-- <img src="img/naluns-marinello-logo.svg" alt="naluns-marinello-logo"> -->
                 <img src="img/naluns-saviva-logo.svg" alt="naluns-saviva-logo">
             </div>
         </article>
