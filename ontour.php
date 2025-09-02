@@ -41,9 +41,6 @@
                 <div class="fadein">
                     <img src="img/naluns-ontour-02.webp" alt="naluns-ontour-02">
                 </div>
-                <div class="fadein">
-                    <img src="img/naluns-ontour-03.webp" alt="naluns-ontour-03">
-                </div>
             </div>
         </article>
         <article>

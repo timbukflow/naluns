@@ -100,8 +100,12 @@
                 </p>
             </div>
             <div class="vlogocont fadein">
-                <!-- <img src="img/naluns-marinello-logo.svg" alt="naluns-marinello-logo"> -->
-                <img src="img/naluns-saviva-logo.svg" alt="naluns-saviva-logo">
+                <a href="https://www.tibits.ch" target="_blank" rel="noopener noreferrer">
+                    <img src="img/naluns-tibits-logo.png" alt="naluns-tibits-logo">
+                </a>
+                <a href="https://www.hogashop.ch/" target="_blank" rel="noopener noreferrer">
+                    <img class="hoga" src="img/naluns-hoga-shop-logo.svg" alt="naluns-hoga-shop-logo">
+                </a>
             </div>
         </article>
 
