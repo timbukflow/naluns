@@ -29,4 +29,4 @@
 <meta name="msapplication-TileColor" content="#88a07e">
 <meta name="theme-color" content="#88a07e">
 
-<link rel="stylesheet" href="main.css" />
+<link rel="stylesheet" href="main.css?v=<?php echo filemtime('main.css'); ?>" />
