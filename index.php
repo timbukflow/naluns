@@ -96,16 +96,11 @@
             <div class="content fadein">
                 <h1 class="font-title">Vertrieb</h1>
                 <p class="font-text-big">
-                    Führen Sie ein Restaurant oder einen Gastronomie&shy;betrieb? Möchten Sie Ihr Angebot durch die Produkte von naluns erweitern? Unser Sortiment ist bei führenden Dienstleistern für die Gastronomie sowie  Lebensmittel&shy;grosshandel erhältlich.
+                    Führen Sie ein Restaurant oder einen Gastronomie&shy;betrieb und möchten Ihr Angebot mit hochwertigen Produkten von naluns erweitern? Unser Sortiment ist über den <a href="https://www.hogashop.ch/" target="_blank" rel="noopener noreferrer"> Hoga Shop </a> oder direkt über naluns.ch erhältlich.
                 </p>
-            </div>
-            <div class="vlogocont fadein">
-                <a href="https://www.tibits.ch" target="_blank" rel="noopener noreferrer">
-                    <img src="img/naluns-tibits-logo.png" alt="naluns-tibits-logo">
-                </a>
-                <a href="https://www.hogashop.ch/" target="_blank" rel="noopener noreferrer">
-                    <img class="hoga" src="img/naluns-hoga-shop-logo.svg" alt="naluns-hoga-shop-logo">
-                </a>
+                <p class="font-text-big">
+                    Bereits heute vertrauen ausgewählte Bergbahnen, Spitäler, Jugendherbergen, das Militär sowie zahlreiche Hotels und Restaurants – darunter <a href="https://www.tibits.ch" target="_blank" rel="noopener noreferrer">Tibits</a> – auf unsere Traditionsprodukte Pizokel, Vizokel und Spätzli und servieren diese täglich in ihren Betrieben.
+                </p>
             </div>
         </article>
 

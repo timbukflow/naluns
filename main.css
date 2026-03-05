@@ -63,6 +63,12 @@ h1.big {
   line-height: 1.2;
   padding: 30px 0 ;
 }
+.font-text-big a {
+  font-size: var(--font-text-big);
+  line-height: 1.2;
+  display: inline-block !important;
+  margin: 0 !important;
+}
 
 
 li {list-style: none;}
